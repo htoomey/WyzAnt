@@ -1,0 +1,13 @@
+A few tips regarding Program 3:
+
+Be sure to change the loop in the server program to read until the end of each file.
+
+Each file has a different size, the 10KB file will be sent in 10, 1000 bytes packets, the 20KB file will be sent in 20, 1000 byte files, etc
+
+Also note that the TCP header has a min of 20bytes and a max of 60bytes.
+
+You will need to look at the wireshark capture to see how many data packets were sent - take note to see how many pure acks, syn, and fin packets or even resends there are - these are all control packets. The summary page found on Statistics, "File Capture Page" will list the total number of packets and will not categorize them.
+
+Be sure to include calculations - how did you find the number of bytes for overhead etc.
+
+Hope this helps - the quiz is on chapter 5 if you weren't aware of that already.
