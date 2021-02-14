@@ -1,0 +1,7 @@
+Cygwin
+
+% pwd
+% cd Wyzant
+% cd code
+% g++ -o exename code.cpp
+% ./exename < inputfile.txt
