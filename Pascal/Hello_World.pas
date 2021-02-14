@@ -6,5 +6,5 @@ LANG: PASCAL
 
 Program HelloWorld;
 Begin
-    Writeln("Hello, World!");
+    Writeln('Hello, World!');
 End.
