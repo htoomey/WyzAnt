@@ -1,0 +1,521 @@
+  502  cd wyzant
+  503  cd eric5x
+  504  ls
+  505  cd Eric_Agyemang
+  506  ls
+  507  gcc -g -o bank.exe bank.c
+  508  ls
+  509  bank
+  510  .\bank
+  511  ls -alF
+  512  chmod 855 Bank.c
+  513  chmod 755 Bank.c
+  514  ls -alF
+  515  bank.exe
+  516  ./bank.exe
+  517  ls -alF
+  518  cat A123456.txt
+  519  cat L123456.txt
+  520  cat L123456.txthistory
+  521  history
+  522  history > history.txt
+   25  gcc -o web web.c
+   26  ./web csweb01.csueastbay.edu 80
+   27  gcc -o web web.c
+   28  ./web csweb01.csueastbay.edu 80
+   29  gcc -o web web.c
+   30  gcc -o web web.c
+   31  ./web csweb01.csueastbay.edu 80
+   32  gcc -o web web.c
+   33  gcc -o web web.c
+   34  ./web csweb01.csueastbay.edu 80
+   35  gcc -o web web.c
+   36  ./web csweb01.csueastbay.edu 80
+   37  ./web csweb01.csueastbay.edu 80
+   38  ./web csweb01.csueastbay.edu 80
+   39  ./web csweb01.csueastbay.edu 80
+   40  ./web csweb01.csueastbay.edu 80
+   41  ./web csweb01.csueastbay.edu 80
+   42  gcc -o web web.c
+   43  ./web csweb01.csueastbay.edu 80
+   44  ./web csweb01.csueastbay.edu 80
+   45  ./web csweb01.csueastbay.edu 80
+   46  ./web csweb01.csueastbay.edu 80
+   47  gcc -o web web.c
+   48  ./web csweb01.csueastbay.edu 80
+   49  ./web csweb01.csueastbay.edu 80
+   50  ./web csweb01.csueastbay.edu 80
+   51  ./web csweb01.csueastbay.edu 80
+   52  gcc -o web web.c
+   53  ./web csweb01.csueastbay.edu 80
+   54  ./web csweb01.csueastbay.edu 80
+   55  ./web csweb01.csueastbay.edu 80
+   56  ./web csweb01.csueastbay.edu 80
+   57  gcc -o web web.c
+   58  ./web csweb01.csueastbay.edu 80
+   59  ./web csweb01.csueastbay.edu 80
+   60  ./web csweb01.csueastbay.edu 80
+   61  ./web csweb01.csueastbay.edu 80
+   62  ./web csweb01.csueastbay.edu 80
+   63  clear
+   64  gcc -o web web.c
+   65  ./web csweb01.csueastbay.edu 80
+   66  ./web csweb01.csueastbay.edu 80
+   67  ./web csweb01.csueastbay.edu 80
+   68  ./web csweb01.csueastbay.edu 80
+   69  gcc -o web web.c
+   70  ./web csweb01.csueastbay.edu 80
+   71  gcc -o web web.c
+   72  gcc -o web web.c
+   73  ./web csweb01.csueastbay.edu 80
+   74  gcc -o web web.c
+   75  gcc -o web web.c
+   76  ./web csweb01.csueastbay.edu 80
+   77  gcc -o web web.c
+   78  ./web csweb01.csueastbay.edu 80
+   79  gcc -o web web.c
+   80  ./web csweb01.csueastbay.edu 80
+   81  gcc -o web web.c
+   82  pwd
+   83  cd tutor
+   84  ls
+   85  cd wyzant
+   86  ls
+   87  cd code
+   88  ls
+   89  gcc -o calculator calc4.cpp
+   90  gcc -std=c++11 -o calculator calc4.cpp
+   91  gcc -std=c++110x -o calculator calc4.cpp
+   92  gcc -std=c++11x0 -o calculator calc4.cpp
+   93  gcc -std=c++10 -o calculator calc4.cpp
+   94  gcc -std=c++11 -o calculator calc4.cpp
+   95  gcc -std=c++98 -o calculator calc4.cpp
+   96  pwd
+   97  c:
+   98  cd c:
+   99  cd  \cygwin64\home\Harold\Wyzant\code
+  100  pwd
+  101  ls
+  102  cd users
+  103  cd harold
+  104  cd wyzant
+  105  ls
+  106  pwd
+  107  ls -1lF
+  108  pwd
+  109  cd ~
+  110  pwd
+  111  cd wyzant
+  112  cd code
+  113  ls
+  114  gcc -o calculator calc3.cpp
+  115  gcc -o calculator calc3.cpp
+  116  gcc -o calculator calc3.cpp
+  117  gcc -o calculator calc4.cpp
+  118  gcc -o calculator calc4.cpp
+  119  gcc -o calculator calc4.cpp
+  120  cls
+  121  gcc -o calculator calc4.cpp
+  122  clear
+  123  gcc -o calculator calc4.cpp
+  124  g++ -o calculator calc4.cpp
+  125  ls
+  126  .\calculator < formula.txt
+  127  calculator < formula.txt
+  128  .\calculator.exe < formula.txt
+  129  .calculator.exe < formula.txt
+  130  calculator.exe < formula.txt
+  131  ls
+  132  g++ -o calculator calc3.cpp
+  133  .\calculator < formula.txt
+  134  calculator < formula.txt
+  135  \calculator < formula.txt
+  136  .calculator < formula.txt
+  137  path
+  138  set
+  139  ls
+  140  calculator.exe
+  141  ./calculator < formula.txt
+  142  clear
+  143  g++ -o calculator calc3.cpp
+  144  ./calculator < formula.txt
+  145  g++ -o calculator calc3.cpp
+  146  g++ -o calculator calc3.cpp
+  147  ./calculator < formula.txt
+  148  g++ -o calculator calc3.cpp
+  149  ./calculator < formula.txt
+  150  g++ -o calculator calc3.cpp
+  151  ./calculator < formula.txt
+  152  g++ -o calculator calc3.cpp
+  153  ./calculator < formula.txt
+  154  g++ -o calculator calc3.cpp
+  155  ./calculator < formula.txt
+  156  g++ -o calculator calc3.cpp
+  157  ./calculator < formula.txt
+  158  g++ -o calculator calc3.cpp
+  159  ./calculator < formula.txt
+  160  g++ -o calculator calc3.cpp
+  161  ./calculator < formula.txt
+  162  g++ -o calculator calc3.cpp
+  163  ./calculator < formula.txt
+  164  ./calculator < formula.txt
+  165  g++ -o calculator calc3.cpp
+  166  g++ -o calculator calc3.cpp
+  167  g++ -o calculator calc3.cpp
+  168  ./calculator < formula.txt
+  169  g++ -o calculator calc3.cpp
+  170  ./calculator < formula.txt
+  171  g++ -o calculator calc3.cpp
+  172  ./calculator < formula.txt
+  173  g++ -o calculator calc3.cpp
+  174  g++ -o calculator calc3.cpp
+  175  ./calculator < formula.txt
+  176  g++ -o calculator calc3.cpp
+  177  ./calculator < formula.txt
+  178  g++ -o calculator calc3.cpp
+  179  ./calculator < formula.txt
+  180  g++ -o calculator calc3.cpp
+  181  ./calculator < formula.txt
+  182  g++ -o calculator calc3.cpp
+  183  ./calculator < formula.txt
+  184  g++ -o calculator calc3.cpp
+  185  ./calculator < formula.txt
+  186  g++ -o calculator calc3.cpp
+  187  ./calculator < formula.txt
+  188  g++ -o calculator calc3.cpp
+  189  ./calculator < formula.txt
+  190  g++ -o calculator calc3.cpp
+  191  ./calculator < formula.txt
+  192  g++ -o calculator calc3.cpp
+  193  ./calculator < formula.txt
+  194  g++ -o calculator calc3.cpp
+  195  ./calculator < formula.txt
+  196  g++ -o calculator calc3.cpp
+  197  ./calculator < formula.txt
+  198  g++ -o calculator calc3.cpp
+  199  ./calculator < formula.txt
+  200  g++ -o calculator calc3.cpp
+  201  ./calculator < formula.txt
+  202  g++ -o calculator calc3.cpp
+  203  ./calculator < formula.txt
+  204  g++ -o calculator calc3.cpp
+  205  ./calculator < formula.txt
+  206  ./calculator < formula.txt
+  207  g++ -o calculator calc3.cpp
+  208  ./calculator < formula.txt
+  209  g++ -o calculator calc3.cpp
+  210  ./calculator < formula.txt
+  211  g++ -o calculator calc3.cpp
+  212  ./calculator < formula.txt
+  213  g++ -o calculator calc3.cpp
+  214  ./calculator < formula.txt
+  215  g++ -o calculator calc3.cpp
+  216  ./calculator < formula.txt
+  217  g++ -o calculator calc3.cpp
+  218  ./calculator < formula.txt
+  219  g++ -o calculator calc3.cpp
+  220  ./calculator < formula.txt
+  221  g++ -o calculator calc3.cpp
+  222  ./calculator < formula.txt
+  223  g++ -o calculator calc3.cpp
+  224  ./calculator < formula.txt
+  225  g++ -o calculator calc3.cpp
+  226  ./calculator < formula.txt
+  227  g++ -o calculator calc3.cpp
+  228  ./calculator < formula.txt
+  229  g++ -o calculator calc3.cpp
+  230  ./calculator < formula.txt
+  231  g++ -o calculator calc3.cpp
+  232  ./calculator < formula.txt
+  233  g++ -o calculator calc3.cpp
+  234  ./calculator < formula.txt
+  235  g++ -o calculator calc3.cpp
+  236  ./calculator < formula.txt
+  237  g++ -o calculator calc3.cpp
+  238  ./calculator < formula.txt
+  239  g++ -o calculator calc3.cpp
+  240  g++ -o calculator calc3.cpp
+  241  ./calculator < formula.txt
+  242  g++ -o calculator calc3.cpp
+  243  ./calculator < formula.txt
+  244  ./calculator < formula.txt
+  245  ./calculator < formula.txt
+  246  ./calculator < formula.txt
+  247  g++ -o calculator calc3.cpp
+  248  ./calculator < formula.txt
+  249  ./calculator < formula.txt
+  250  g++ -o calculator calc3.cpp
+  251  ./calculator < formula.txt
+  252  ./calculator < formula.txt
+  253  g++ -o calculator calc3.cpp
+  254  ./calculator < formula.txt
+  255  g++ -o calculator calc3.cpp
+  256  ./calculator < formula.txt
+  257  g++ -o calculator calc3.cpp
+  258  ./calculator < formula.txt
+  259  g++ -o calculator calc3.cpp
+  260  ./calculator < formula.txt
+  261  g++ -o calculator calc3.cpp
+  262  ./calculator < formula.txt
+  263  g++ -o calculator calc3.cpp
+  264  ./calculator < formula.txt
+  265  g++ -o calculator calc3.cpp
+  266  ./calculator < formula.txt
+  267  g++ -o calculator calc3.cpp
+  268  ./calculator < formula.txt
+  269  g++ -o calculator calc3.cpp
+  270  ./calculator < formula.txt
+  271  g++ -o calculator calc3.cpp
+  272  ./calculator < formula.txt
+  273  g++ -o calculator calc3.cpp
+  274  ./calculator < formula.txt
+  275  g++ -o calculator calc3.cpp
+  276  ./calculator < formula.txt
+  277  g++ -o calculator calc3.cpp
+  278  ./calculator < formula.txt
+  279  g++ -o calculator calc3.cpp
+  280  ./calculator < formula.txt
+  281  g++ -o calculator calc3.cpp
+  282  ./calculator < formula.txt
+  283  g++ -o calculator calc3.cpp
+  284  ./calculator < formula.txt
+  285  g++ -o calculator calc3.cpp
+  286  ./calculator < formula.txt
+  287  g++ -o calculator calc3.cpp
+  288  ./calculator < formula.txt
+  289  g++ -o calculator_debug calc3_debug.cpp
+  290  ./calculator_debug < formula.txt
+  291  ./calculator_debug < formula.txt
+  292  pwd
+  293  cd code
+  294  pwd
+  295  cd wyzant
+  296  cd code
+  297  ./calculator_debug < formula.txt
+  298  g++ -o calculator_debug calc3_debug.cpp
+  299  ./calculator_debug < formula.txt
+  300  g++ -o calculator_debug calc3_debug.cpp
+  301  ./calculator_debug < formula.txt
+  302  g++ -o calculator_debug calc3_debug.cpp
+  303  ./calculator_debug < formula.txt
+  304  g++ -o calculator_debug calc3_debug.cpp
+  305  ./calculator_debug < formula.txt
+  306  g++ -o calculator_debug calc3_debug.cpp
+  307  ./calculator_debug < formula.txt
+  308  g++ -o calculator_debug calc3_debug.cpp
+  309  ./calculator_debug < formula.txt
+  310  ./calculator_debug < formula.txt
+  311  g++ -o calculator calc3.cpp
+  312  ./calculator < formula.txt
+  313  ./calculator < formula.txt > output.txt
+  314  ./calculator_debug < formula.txt > output_debug.txt
+  315  pwd
+  316  cd code
+  317  ls
+  318  cd wyzant
+  319  ls
+  320  cd code
+  321  ls
+  322  g++ -o harrison harrison.cpp
+  323  ./harrison
+  324  g++ -o harrison harrison.cpp
+  325  ./harrison
+  326  g++ -o harrison harrison.cpp
+  327  ./harrison
+  328  g++ -o harrison harrison.cpp
+  329  ./harrison
+  330  man gpp
+  331  gpp
+  332  g++
+  333  man g++
+  334  pwd
+  335  cd wyzant
+  336  pwd
+  337  cd eric_agyemang
+  338  ls -alF
+  339  history
+  340  g++ -o harrison harrison.cpp
+  341  gcc -g -o bank.exe bank.c
+  342  ls -alF
+  343  ./bank.exe
+  344  ls -alF
+  345  cat A123456.TXT
+  346  cat L123456.TXT
+  347  gcc -g -o bank.exe bank.c
+  348  ./bank.exe
+  349  gcc -g -o bank.exe bank.c
+  350  ./bank.exe
+  351  ls -alF
+  352  gcc -g -o bank.exe bank.c
+  353  ./bank.exe
+  354  ls -alF
+  355  cat L000002.TXT
+  356  gcc -g -o bank.exe bank.c
+  357  ./bank.exe
+  358  cat A000001.TXT
+  359  ls -alF
+  360  ls -alF
+  361  gcc -g -o bank.exe bank.c
+  362  gcc -g -o bank.exe bank.c
+  363  gcc -g -o bank.exe bank.c
+  364  ./bank.exe
+  365  ./bank.exe
+  366  ./bank.exe
+  367  gcc -g -o bank.exe bank.c
+  368  ./bank.exe
+  369  gcc -g -o bank.exe bank.c
+  370  ./bank.exe
+  371  gcc -g -o bank.exe bank.c
+  372  ./bank.exe
+  373  gcc -g -o bank.exe bank.c
+  374  ./bank.exe
+  375  gcc -g -o bank.exe bank.c
+  376  ./bank.exe
+  377  ls -alF
+  378  ./bank.exe
+  379  ls -alF
+  380  ./bank.exe
+  381  gcc -g -o bank.exe bank.c
+  382  gcc -g -o bank.exe bank.c
+  383  gcc -g -o bank.exe bank.c
+  384  gcc -g -o bank.exe bank.c
+  385  ./bank.exe
+  386  ./bank.exe
+  387  gcc -g -o bank.exe bank.c
+  388  gcc -g -o bank.exe bank.c
+  389  ./bank.exe
+  390  ls -alF
+  391  ./bank.exe
+  392  gcc -g -o bank.exe bank.c
+  393  ./bank.exe
+  394  gcc -g -o bank.exe bank.c
+  395  ./bank.exe
+  396  gcc -g -o bank.exe bank.c
+  397  ./bank.exe
+  398  gcc -g -o bank.exe bank.c
+  399  ./bank.exe
+  400  gcc -g -o bank.exe bank.c
+  401  gcc -g -o bank.exe bank.c
+  402  ./bank.exe
+  403  ./bank.exe
+  404  gcc -g -o bank.exe bank.c
+  405  gcc -g -o bank.exe bank.c
+  406  ./bank.exe
+  407  gcc -g -o bank.exe bank.c
+  408  gcc -g -o bank.exe bank.c
+  409  ./bank.exe
+  410  gcc -g -o bank.exe bank.c
+  411  gcc -g -o bank.exe bank.c
+  412  gcc -g -o bank.exe bank.c
+  413  gcc -g -o bank.exe bank.c
+  414  ./bank.exe
+  415  gcc -g -o bank.exe bank.c
+  416  ./bank.exe
+  417  gcc -g -o bank.exe bank.c
+  418  ./bank.exe
+  419  gcc -g -o bank.exe bank.c
+  420  ./bank.exe
+  421  gcc -g -o bank.exe bank.c
+  422  ./bank.exe
+  423  gcc -g -o bank.exe bank.c
+  424  gcc -g -o bank.exe bank.c
+  425  gcc -g -o bank.exe bank.c
+  426  gcc -g -o bank.exe bank.c
+  427  ./bank.exe
+  428  ./bank.exe
+  429  cat A000123.txt
+  430  gcc -g -o bank.exe bank.c
+  431  ./bank.exe
+  432  gcc -g -o bank.exe bank.c
+  433  gcc -g -o bank.exe bank.c
+  434  ./bank.exe
+  435  ./bank.exe
+  436  gcc -g -o bank.exe bank.c
+  437  ./bank.exe
+  438  gcc -g -o bank.exe bank.c
+  439  ./bank.exe
+  440  gcc -g -o bank.exe bank.c
+  441  ./bank.exe
+  442  gcc -g -o bank.exe bank.c
+  443  ./bank.exe
+  444  gcc -g -o bank.exe bank.c
+  445  ./bank.exe
+  446  ./bank.exe
+  447  gcc -g -o bank.exe bank.c
+  448  ./bank.exe
+  449  gcc -g -o bank.exe bank.c
+  450  ./bank.exe
+  451  gcc -g -o bank.exe bank.c
+  452  ./bank.exe
+  453  gcc -g -o bank.exe bank.c
+  454  ./bank.exe
+  455  gcc -g -o bank.exe bank.c
+  456  ./bank.exe
+  457  ls -alF
+  458  gcc -g -o bank.exe bank.c
+  459  ./bank.exe
+  460  gcc -g -o bank.exe bank.c
+  461  ./bank.exe
+  462  gcc -g -o bank.exe bank.c
+  463  ./bank.exe
+  464  gcc -g -o bank.exe bank.c
+  465  gcc -g -o bank.exe bank.c
+  466  gcc -g -o bank.exe bank.c
+  467  ./bank.exe
+  468  ./bank.exe
+  469  gcc -g -o bank.exe bank.c
+  470  ./bank.exe
+  471  gcc -g -o bank.exe bank.c
+  472  ./bank.exe
+  473  ./bank.exe
+  474  gcc -g -o bank.exe bank.c
+  475  ./bank.exe
+  476  ./bank.exe
+  477  ./bank.exe
+  478  gcc -g -o bank.exe bank.c
+  479  ./bank.exe
+  480  ./bank.exe
+  481  ./bank.exe
+  482  ./bank.exe
+  483  ./bank.exe
+  484  ./bank.exe
+  485  ./bank.exe
+  486  gcc -g -o bank.exe bank.c
+  487  ./bank.exe
+  488  ./bank.exe
+  489  ./bank.exe
+  490  gcc -g -o bank.exe bank.c
+  491  ./bank.exe
+  492  ./bank.exe
+  493  gcc -g -o bank.exe bank.c
+  494  ./bank.exe
+  495  gcc -g -o bank.exe bank.c
+  496  ./bank.exe
+  497  gcc -g -o bank.exe bank.c
+  498  ./bank.exe
+  499  gcc -g -o bank.exe bank.c
+  500  ./bank.exe
+  501  cd wyzant
+  502  cd eric_agyemang
+  503  ls -alF
+  504  gcc -g -o bank.exe bank.c
+  505  ls -alF
+  506  ./bank.exe
+  507  gcc -g -o bank.exe bank.c
+  508  gcc -g -o bank.exe bank.c
+  509  gcc -g -o bank.exe bank.c
+  510  gcc -g -o bank.exe bank.c
+  511  gcc -g -o bank.exe bank.c
+  512  ./bank.exe
+  513  gcc -g -o bank.exe bank.c
+  514  ./bank.exe
+  515  gcc -g -o bank.exe bank.c
+  516  ./bank.exe
+  517  gcc -g -o bank.exe bank.c
+  518  ./bank.exe
+  519  gcc -g -o bank.exe bank.c
+  520  ./bank.exe
+  521  gcc -g -o bank.exe bank.c
+  522  ./bank.exe
+  523  history
+  524  history >> history.txt

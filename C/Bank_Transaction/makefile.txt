@@ -1,0 +1,8 @@
+cd wyzant/Eric_Agyemang
+ls -alF
+gcc -g -o bank.exe bank.c
+ls -alF
+./bank.exe
+ls -alF
+cat A123456.txt
+cat L123456.txt
