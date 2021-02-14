@@ -1,0 +1,46 @@
+C:\Users\Harold\.jdks\openjdk-14.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\lib\idea_rt.jar=54081:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath "D:\Cloud\Google Drive\WyzAnt\IdeaProjects\RotorProject\out\production\RotorProject" Three_Rotor.Main
+This Three-Rotor Machine encrypts/decrypts alphabetical text (no spaces).
+
+ Slow Rotor		 Medium Rotor	 Fast Rotor
+|-----------|	|-----------|	|-----------|
+|1		4	|	|1		4	|	|1		4	|
+|2		1	|	|2		1	|	|2		1	|
+|3		5	|	|3		5	|	|3		5	|
+|4		2	|	|4		2	|	|4		2	|
+|5		3	|	|5		3	|	|5		3	|
+|-----------|	|-----------|	|-----------|
+
+Please enter Plain text (letters only): aaaaaaaaaaa
+Plain text:  "AAAAAAAAAAA"
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 1],  TOP OUT SMF: [1, 1, 5],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (A)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 5],  TOP OUT SMF: [1, 1, 4],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AA)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 4],  TOP OUT SMF: [1, 1, 3],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAA)
+CHAR IN: 'A',  CHAR OUT: 'E',  TOP IN SMF: [1, 1, 3],  TOP OUT SMF: [1, 1, 2],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAE)
+CHAR IN: 'A',  CHAR OUT: 'B',  TOP IN SMF: [1, 1, 2],  TOP OUT SMF: [1, 5, 1],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEB)
+CHAR IN: 'A',  CHAR OUT: 'E',  TOP IN SMF: [1, 5, 1],  TOP OUT SMF: [1, 5, 5],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEBE)
+CHAR IN: 'A',  CHAR OUT: 'E',  TOP IN SMF: [1, 5, 5],  TOP OUT SMF: [1, 5, 4],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEBEE)
+CHAR IN: 'A',  CHAR OUT: 'D',  TOP IN SMF: [1, 5, 4],  TOP OUT SMF: [1, 5, 3],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEBEED)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 5, 3],  TOP OUT SMF: [1, 5, 2],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEBEEDA)
+CHAR IN: 'A',  CHAR OUT: 'E',  TOP IN SMF: [1, 5, 2],  TOP OUT SMF: [1, 4, 1],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEBEEDAE)
+CHAR IN: 'A',  CHAR OUT: 'C',  TOP IN SMF: [1, 4, 1],  TOP OUT SMF: [1, 4, 5],  PLAIN TEXT: (AAAAAAAAAAA),  CYPHER TEXT: (AAAEBEEDAEC)
+Cypher text: "AAAEBEEDAEC"
+
+Please enter Cypher text (letters only): AAAEBEEDAEC
+Cypher text: "AAAEBEEDAEC"
+CHAR IN: 'C',  CHAR OUT: 'A',  TOP IN SMF: [1, 4, 1],  TOP OUT SMF: [1, 5, 2],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (A)
+CHAR IN: 'E',  CHAR OUT: 'A',  TOP IN SMF: [1, 5, 2],  TOP OUT SMF: [1, 5, 3],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AA)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 5, 3],  TOP OUT SMF: [1, 5, 4],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAA)
+CHAR IN: 'D',  CHAR OUT: 'A',  TOP IN SMF: [1, 5, 4],  TOP OUT SMF: [1, 5, 5],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAA)
+CHAR IN: 'E',  CHAR OUT: 'A',  TOP IN SMF: [1, 5, 5],  TOP OUT SMF: [1, 5, 1],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAA)
+CHAR IN: 'E',  CHAR OUT: 'A',  TOP IN SMF: [1, 5, 1],  TOP OUT SMF: [1, 1, 2],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAAA)
+CHAR IN: 'B',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 2],  TOP OUT SMF: [1, 1, 3],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAAAA)
+CHAR IN: 'E',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 3],  TOP OUT SMF: [1, 1, 4],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAAAAA)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 4],  TOP OUT SMF: [1, 1, 5],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAAAAAA)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 5],  TOP OUT SMF: [1, 1, 1],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAAAAAAA)
+CHAR IN: 'A',  CHAR OUT: 'A',  TOP IN SMF: [1, 1, 1],  TOP OUT SMF: [2, 2, 2],  CYPHER TEXT: (AAAEBEEDAEC),  PLAIN TEXT: (AAAAAAAAAAA)
+Plain text:  "AAAAAAAAAAA"
+
+Goodbye
+
+
+Process finished with exit code 0

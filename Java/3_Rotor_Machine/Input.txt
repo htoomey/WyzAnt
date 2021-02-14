@@ -1,0 +1,72 @@
+
+TEST INPUT:
+
+ab
+abcdefghijklmnopqrstuvwxyz
+
+abcdefghijklmnopqrstuvwxyza
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+DEBUG:
+
+abcde
+aaaaa
+
+abcdea
+aaaaaa
+
+abcdeabcde
+aaaaaaaaaaa
+
+
+abcdeabcdeabcd
+aaaaaaaaaaaaaa
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abcdeabcdeabcdeabcdeabcdeabcdeab
+
+
+
+------------------------------------------------------------
+MANUAL ENCRYPTION TEST CASE #1:
+
+Input:     aaaaaaaaaaaaaaaaaaaaaaaaaa
+
+Encrypted: BETXDNVQOXKIFZYWMPUJHGBSCR
+Should Be: BETXDNVQOXKIFZYWMPuJHGBSCR
+
+Decrypted: AAAAAAAAAAAAAAAAAAAAAAAAAA
+Should Be: AAAAAAAAAAAAAAAAAAAAAAAAAA
+------------------------------------------------------------
+MANUAL ENCRYPTION TEST CASE #2:
+
+Input:     abcdefghijklmnopqrstuvwxyz
+
+Encrypted: BQDKWQOUGCJFZRKLYMZURJYTET
+Should Be: BQDKWQOUGCJFZRKLYMZURJYTET
+
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Should Be: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+------------------------------------------------------------
+MANUAL ENCRYPTION TEST CASE #3:
+
+Input:     abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy  (no Z)
+
+Encrypted: BQDKWQOUGCJFZRKLYMZURJYTETGMYJRANFBRSJEKWZLGPBPKMSZ
+Should Be: BQDKWQOUGCJFZRKLYMZURJYTET
+
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYiABCDEFGHIJKLMNOPQRSTUVWXY
+change     FHVUAQMSZXRNPGYWBCIKDLJEFTpBCDEFGHIJKLMNOPQRSTUVWXY
+Should Be: ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXY
+------------------------------------------------------------
+           BQDKWQOUGCJFZRKLYMZURJYTEAGMYJRANFBRSJEKWZLGPBPKMSZ
