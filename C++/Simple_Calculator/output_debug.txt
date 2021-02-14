@@ -1,0 +1,91 @@
+==============================
+num_op_string:  5^;
+   num:  5
+   num^: 25
+25
+
+num_op_string:  1000
+   num:  1000
+num_op_string:  +
+   op: +
+num_op_string:  6^
+   num:  6
+   num^: 36
+   sum:  1036
+num_op_string:  -
+   op: -
+num_op_string:  5^
+   num:  5
+   num^: 25
+   sum:  1011
+num_op_string:  +
+   op: +
+num_op_string:  1;
+   num:  1
+   sum:  1012
+1012
+
+num_op_string:  15
+   num:  15
+num_op_string:  ;
+   op: ;
+15
+
+num_op_string:  10
+   num:  10
+num_op_string:  +
+   op: +
+num_op_string:  3
+   num:  3
+   sum:  13
+num_op_string:  +
+   op: +
+num_op_string:  0
+   num:  0
+   op: 0
+num_op_string:  +
+   op: +
+num_op_string:  25
+   num:  25
+   sum:  38
+num_op_string:  ;
+   op: ;
+38
+
+num_op_string:  5
+   num:  5
+num_op_string:  +
+   op: +
+num_op_string:  6
+   num:  6
+   sum:  11
+num_op_string:  -
+   op: -
+num_op_string:  7
+   num:  7
+   sum:  4
+num_op_string:  -
+   op: -
+num_op_string:  8
+   num:  8
+   sum:  -4
+num_op_string:  +
+   op: +
+num_op_string:  9
+   num:  9
+   sum:  5
+num_op_string:  +
+   op: +
+num_op_string:  10
+   num:  10
+   sum:  15
+num_op_string:  -
+   op: -
+num_op_string:  11
+   num:  11
+   sum:  4
+num_op_string:  ;
+   op: ;
+4
+
+==============================
