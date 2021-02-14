@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Linear Finite-Difference - Algorithm 11.3
+
+y''  = p(x)y' + q(x)y + r(x)
+p(x) = -2.0/x
+q(x) = 2.0/(x*x)
+r(x) = sin(log(x))/(x*x)
+
+Solving for points on interval [1,2].
+Boundry condition y(1) = à = 1
+Boundry condition y(2) = á = 2
+Number of subintervals N = 9
+Interval number h = 0.1
+
+ x	 w
+-----------------------
+ 1.00	 1.000000000
+ 1.10	 1.092600521
+ 1.20	 1.187043129
+ 1.30	 1.283336870
+ 1.40	 1.381402046
+ 1.50	 1.481120262
+ 1.60	 1.582359896
+ 1.70	 1.684989018
+ 1.80	 1.788881746
+ 1.90	 1.893921099
+ 2.00	 2.000000000
