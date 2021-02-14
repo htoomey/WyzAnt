@@ -1,0 +1,603 @@
+**************************** REVHIST.DOC *****************************
+        History of "Numerical Analysis Algorithms in C"
+**********************************************************************
+
+This chapter provides an overview of the history of "Numerical
+Analysis Algorithms in C."  It is directed to users of previous
+versions of this software.  It also hints to future versions of
+Numerical Analysis Algorithms software in other languages.  It may
+provide incentives for users to upgrade or to just see how this
+product has matured over the years.
+
+The first four sections contains the additions, corrections and
+enhancements made to previous versions of "Numerical Analysis
+Algorithms in C".  Below are listed the history of changes made to
+create versions 3.0, 4.0, 4.1, and 4.2.
+
+**********************************************************************
+                              Version 3.0
+**********************************************************************
+
+DATE:    4th QUARTER 1988
+
+Initial version for the 3rd edition of the text "Numerical Analysis."
+
+
+**********************************************************************
+                              Version 4.0
+**********************************************************************
+
+DATE:    1st QUARTER 1989
+
+Updated version for the 4th edition of the text "Numerical Analysis."
+
+1.  Added the following algorithms:
+
+    a. "trunc.h" - truncates a floating point value.
+    b. "024b.c"  - Method of False Position (or Regula Falsi)
+    c. "060D.c"  - Matrix Multiplier (nxn) x (nxn).
+    d. "065.c"   - LDLt Factorization. (99% complete - text is in
+                   error.)
+    e. "096.c"   - QR Algorithm.
+
+
+2.  Added the following documents:
+
+  a.  UPDATE.DOC - Explains why there is a version 4.0.  Also has a
+                   table relating the third edition names to the
+                   fourth edition names.
+
+
+3.  Changed the following algorithms:
+
+  ALL ALGORITHMS:
+    1. Renamed the algorithms to comply with the 4th edition of the
+       text.
+    2. Removed the "alg" prefix from the program names, ie- from
+       "alg021.c" to "021.c".
+    3. Added "naa_util.h" to ALL programs as well as get_title() to
+       prompt the user for an optional title.
+    4. ALL algorithms now prompt for the tolerance (TOL).  (Effects
+       old chapters 2, 5, 8 and 9 programs).
+    5. ALL algorithms now print the algorithm name to both the output
+       file and to the screen.
+    6. Changed the "/* Needs updating    */" lines to have a "$" in 
+       them so they can be found easily with any search command.
+    7. Removed unneeded "#include <math.h>" statements.
+    8. Removed unneeded void declarations.
+
+  CHAPTER 1:
+    1. Improved "signif.h" (It didn't work for numbers > pow(10.0, 
+       SIG)).
+    2. Renamed "nrutil.h" to "naa_util.h", changing all malloc()'s to 
+       calloc()'s as well as adding a title prompting routine,
+       get_title().
+    3. Added "#include <stdlib.h>" to "naa_util.h", replacing 
+       "#include <malloc.h>" from several programs (like ch 9 of 
+       v3.0, now ch 10 of v4.0).  "stdlib.h" is for ANSI
+       compatibility.
+
+  CHAPTER 2:
+
+  CHAPTER 3:
+    1. alg034.c - (now 034.c) Now it integrates over the intervals of
+                  S(x) after determining the Cubic Spline (like the
+                  FORTRAN version used at BYU).  Error fix: line #37 
+                  - Computes n, not n-1 coefficient sets.
+
+    2. alg035.c - (now 035.c) Now it integrates over the intervals of
+                  S(x) after determining the Cubic Spline (like the
+                  FORTRAN version used at BYU).  Error fix: line #37 
+                  - Computes n, not n-1 coefficient sets.
+
+  CHAPTER 4:
+    1. alg042.c - (now 042.c) Removed unused variable h in main().
+
+  CHAPTER 5:
+    1. alg055.c - (now 055.c) Removed unused variables k1, k2, k3, and
+                  k4 in main().
+    2. alg056.c - (now 056.c) Removed unused procedure RK4().
+    3. alg057b.c - (now 057b.c) Removed unused variables k1, k2, k3,
+                   k4, and ch in main().
+
+  CHAPTER 6:
+    1. alg063.c - (now 063.c) Error fix: line #92  - Initialized p=1.
+    2. alg066.c - (now 066.c) Removed unused variables p and ch in
+                  main().
+    3. alg067.c - (now 067.c) Removed unused variable k in main().
+
+  CHAPTER 7:
+    1. alg071.c - (now 081.c) Removed unused variable n in main().  
+                  Commented-out line #144 for K1 (never used).  
+                  Casted ldexp()'s 2nd argument to type int.
+
+  CHAPTER 8:
+    1. alg087.c - (now 093.c) Removed unused variable *B in main().
+    2. alg0810.c - (now 096b.c) Removed unused variable k in main().
+
+  CHAPTER 9:
+    1. alg091B.c - (now 101B.c) Could not fix in this version:
+                   Steffensen's for n x n.  Debug it?
+    2. alg092.c - (now 102.c) Removed unused procedure
+                  infinite_norm().
+    3. alg093b.c - (now 103b.c) Removed unused variable j in main().
+
+  CHAPTER 10:
+    1. alg102.c - (now 112.c) Removed unused variable j in main().
+    2. alg102b.c - (now 112b.c) Removed unused variable j in main().
+    3. alg104.c - (now 114.c) Error fix: line #175 - From "w1[i]" to
+                  "w[i]".
+    4. alg105.c - (now 115.c) Removed unused variable XI in simpson(). 
+                  Changed from "return(0)" to "return(0.0)" in the
+                  procedures returning type double.
+    5. alg106.c - (now 116.c) Removed unused variable XI in simpson(). 
+                  Changed from "return(0)" to "return(0.0)" in the
+                  procedures returning type double.
+
+  CHAPTER 11:
+    1. alg114.c - (now 124.c) Removed unused variable t in main().
+    2. alg115.c - (now 125.c) Could not fix in this version: Finite
+                  Element.  Only about 50% done.
+
+  CHAPTER 12:
+
+
+4.  Changed the following documents:
+
+  a.  README.DOC:
+      1. Added helpful hints with portability to other computer
+         systems.
+      2. Include more complete copyright information.
+
+
+**********************************************************************
+                              Version 4.1
+**********************************************************************
+
+DATE:    3rd QUARTER 1989
+
+1.  Added the following algorithms:
+
+  CHAPTER 1:
+    1. "011B.c"  - Taylor Polynomial Approximation (degree 5).
+    2. "naa_uti2.h" - Like "naa_util.h" with the type "long double". 
+                      Also has routines for 3-dimensional matrices.
+
+  CHAPTER 2:
+    1. "024C.c"  - Modified Newton-Raphson Method.
+
+  CHAPTER 3:
+    1. "031B.c"  - Neville's Iterated Interpolation (for SIG-digit
+                   rounding).
+    2. "031C.c"  - Aitken's Iterated Interpolation.
+
+  CHAPTER 4:
+    1. "040B1.c" - 1st Derivative Approximator (for functions).
+    2. "040B2.c" - 1st Derivative Approximator (for points).
+    3. "040B3.c" - 1st Derivative Approximator (for functions with
+                   TOL).
+    4. "040C1.c" - 2nd Derivative Approximator (for functions).
+    5. "040C2.c" - 2nd Derivative Approximator (for points).
+    6. "040D1.c" - Richardson's Extrapolation.
+    7. "040D2.c" - Richardson's Extrapolation (For SIG-digits
+                   rounding).
+    8. "041D.c"  - Newton-Cotes Formulas for Integrals (8 total).
+    9. "043B.c"  - Gaussian Quadrature.
+   10. "044B.c"  - Composite Trapezoid Rule for Double Integrals.
+   11. "044C.c"  - Gaussian Quadrature for Double Integrals.
+   12. "045B.c"  - Composite Trapezoid Rule for Triple Integrals.
+   13. "045C.c"  - Gaussian Quadrature for Triple Integrals.
+
+  CHAPTER 5:
+    1. "051B.c"  - Midpoint, Modified Euler, and Heun's Methods.
+    2. "054B.c"  - Adams-Bashforth (all four) and Milne's Methods.
+    3. "054C.c"  - Milne-Simpson Predictor-Corrector.
+
+  CHAPTER 6:
+    1. "061B.c"  - Gaussian Elimination with Backward Substitution
+                   (with rounding).
+    2. "061C2.c" - Gauss-Jordan Method (with rounding).
+    3. "061D2.c" - Gaussian-Elimination - Gauss-Jordan Hybrid Method
+                   (with rounding).
+    4. "062B.c"  - Gaussian Elimination with Maximal Column Pivoting
+                   (with rounding).
+    5. "063B.c"  - Gaussian Elimination with Scaled Column Pivoting 
+                   (with rounding).
+    6. "064B.c"  - Direct Factorization which solves AX = B.
+    7. "065.c"   - LDLt Factorization (Never worked earlier.  Text in
+                   error.)
+    8. "065B.c"  - LDLt Factorization which solves AX = B.
+    9. "066B.c"  - Choleski which solves AX = B.
+
+  CHAPTER 7:
+    1. "070B.c"  - Vector and Matrix Norms.
+
+  CHAPTER 8:
+    1. "080B.c" - Least-Squares Polynomial Approximation (For f(x) and
+                  tabulated data).
+
+  CHAPTER 9:
+    1. "091B.c"  - Power Method with Aitken's .
+    2. "094B.c"  - Wielandt's Deflation using Power Method for lambda1
+                   Algorithm 9.4B.
+    3. "095.c"   - Householders Method (new version).
+    4. "095C.c"  - Householder Method for Non-Symmetric Matrices.
+    5. "095D.c"  - Householder Method (with rounding).
+
+  CHAPTER 10:
+
+  CHAPTER 11:
+
+  CHAPTER 12:
+    1. "122B.c"  - Heat Equation Forward-Difference.
+    2. "122C.c"  - Heat Equation Richardson's Method.
+    3. "126A.c"  - Parabolic Equations With Newton Iteration in 1-D.
+    4. "127A.c"  - Parabolic Equations With Newton Iteration in 2-D.
+    5. "128A.c"  - Elliptic Equations With Newton Iteration in 2-D.
+    6. "129A.c"  - Biharmonic Equation Using Gauss-Jordan Method.
+
+----------------------------------------------------------------------
+2.  Changed the following algorithms:
+
+  ALL PROGRAMS:
+    1. Re-commented to more closely match the text.
+    2. Updated date and version to Summer 1989, v4.1
+    3. Removed all declaration of functions now prototyped in
+       "naa_util.h".  (ie - double **dmatrix(), *dvector(); and float
+       round(); etc. )
+
+  CHAPTER 1:
+    1. "signif.h" - Renamed SIGNIF.H to ROUND.H (and round()).  Also
+                    removed #include <math.h> and added ANSI C
+                    formatted function  prototypes.
+    2. "trunc.h"  - Renamed TRUNC.H to CHOP.H (and chop()).  Also
+                    removed #include <math.h> and added ANSI C
+                    formatted function prototypes.
+    3. "naa_util.h" - removed "void exit();" statement, already found
+                      in stdlib.h.
+
+  CHAPTER 2:
+    1. "026.c"  - Patched print_poly() for -X + 2 type polynomial.
+    2. "027.c"  - Changed d's to D's in Step 4 for 4th edition
+                  corrections.
+    3. "028A.c" - Patched print_poly() for -X + 2 type polynomial.
+
+  CHAPTER 3:
+    1. "032.c"  - Prints the output like an arrow, not a ramp.
+    2. "033.c"  - Evaluates the Hermite polynomial at H(x).
+    3. "034.c"  - Also evaluates f(x), f'(x), and f''(x).
+    4. "035.c"  - Also evaluates f(x), f'(x), and f''(x).
+
+  CHAPTER 4:
+    1. "041B.c" - Changed title from "Extended" to "Composite".
+    2. "041C.c" - Changed title from "Extended" to "Composite".
+
+  CHAPTER 5:
+    1. ALL      - Replaced a (%d) with a needed (%lg) when reading
+                  alpha.
+    2. "051.c"  - Changed N=0; to N;.
+    3. "052.c"  - Changed N=0; to N;.
+    4. "053.c"  - Replaced 053.C with text's modified algorithm.
+    5. "054.c"  - Optimized.
+    6. "055.c"  - Replaced 055.C with text's modified algorithm.
+    7. "056.c"  - Replaced 056.C with text's modified algorithm.
+    8. "057.c"  - Replaced matrices with dvector() and dmatrix().
+    9. "057B.c" - Replaced matrices with dvector().
+   10. "058.c"  - Changed N=0; to N;.
+
+  CHAPTER 6:
+    1. "061B.c" - Renamed 061B.c to 061C.c.
+    2. "064B.c" - Renamed 064B.c to 064C.c.
+    3. "065.c"  - Converted from float to double. 
+    4. "066.c"  - Converted from float to double. 
+    5. "067.c"  - Converted from float to double. 
+
+  CHAPTER 7:
+
+  CHAPTER 8:
+    1. "081.c"  - Removed cvector() and replaced with #include
+                  "naa_uti2.h".
+
+  CHAPTER 9:
+    1. "094.c"  - Never really worked very well.  Had MAJOR problems!
+    2. "095.c"  - Renamed from "Householders" to "Householder".
+    3. "095B.c" - Householder Method (old version) was named 095.C.
+
+  CHAPTER 10:
+    1. "101A.c" - Fixed it to work with an n x n system, not just 2 x
+                  2.
+    2. "101B.c" - Removed it.  See 101A.C.
+    3. "102.c"  - Changed from euclidean_norm() to infinite_norm().
+                  Optimized.
+    4. "103.c"  - Replaced with text modified version.  Optimized.
+    5. "103B.c" - Replaced with text modified version.  Optimized.
+
+  CHAPTER 11:
+
+  CHAPTER 12:
+    1. "125.c"  - Removed dcube() and replaced with #include
+                  "naa_uti2.h".
+
+
+----------------------------------------------------------------------
+
+3.  Changed the following documents:
+
+    a.   ALL
+
+
+
+**********************************************************************
+                              Version 4.2
+**********************************************************************
+
+DATE:    2nd QUARTER 1991
+
+1.  Added the following algorithms:
+
+  CHAPTER 1:
+    1.  NAAUTIL3.H
+        a. Contains six complex routines for dynamic allocation and
+           freeing of vectors, matrices, and cubes.
+        b. Placed #include "complex.h" at the top of "naautil3.h" and
+           removed it from "028A.C", "081.C", and "125.C".
+
+  CHAPTERS 2-12: NONE
+
+----------------------------------------------------------------------
+
+2.  Added the following utilities:
+
+  a.  CONVERT.EXE - Converts the source code files from EXTENDED ASCII
+                    to STANDARD ASCII for non-MS-DOS platforms (ie -
+                    UNIX).  Like NAA v4.1 ---> NAA v4.11  (CONVERT.C
+                    source code also included)
+
+  b.  EQEVAL.C - Allows equations like f(x) and f(x,y,z) to be entered
+                 at run time instead of at compile time.
+
+  c.  EE.EXE - Uses EQEVAL.C to familiarize users with writing
+               mathematical equations in C.  Allows equations like
+               f(x) and f(x,y,z) to be evaluated like a calculator,
+               using infix notation.  (EE.C source code also included)
+
+
+----------------------------------------------------------------------
+
+3.  Added the following documents:
+
+  a.  LANGTRAN.DOC
+      1. Compares "C" with most popular languages in order to help
+         those already familiar with another programming language to
+         easily transition to "C".  These languages include Ada,
+         BASIC, C++, FORTRAN 77, and Pascal.
+      2. Include working sample programs which implement Composite
+         Simpson's Rule for Numerical Integration - Algorithm 4.1 in:
+         ADA, BASIC, C, C++, FORTRAN 77, and Pascal.
+
+  b.  REVHIST.DOC
+      1. Combined the files UPDATE40.DOC and UPDATE41.DOC into the
+         file REVHIST.DOC.
+      2. Added update info for version 4.2.
+
+  c.  TEXTERR.DOC
+      1. Lists several textbook errors (third and fourth edition) and
+         how to fix them.
+
+  d.  IN\*.IN
+      1. A subdirectory containing the input files for ALL the
+         examples.
+      2. Can be used to easily create output files when the input data
+         changes little from run to run.  (Usage:  041 < IN\041.in)
+
+  e.  OUT\*.OUT
+      1. A subdirectory containing the output files for ALL the
+         examples.
+      2. Can be used to verify that your compiler recompiled the
+         source code correctly after entering the data found in the
+         appropriate *.IN file.
+
+
+----------------------------------------------------------------------
+
+4.  Changed the following algorithms:
+
+  ALL ALGORITHMS:
+    1. Added the following comments to all programs:
+       
+/********************************************************************/
+/* Written by:  Harold A. Toomey, CARE-FREE SOFTWARE, 2Q 1991, v4.2 */
+/********************************************************************/
+                                            ...       
+/********************************************************************/
+/* Copyright (C) 1988-1991, Harold A. Toomey, All Rights Reserved.  */
+/********************************************************************/
+    2. Added free_dvector(), free_dmatrix(), etc. to all of the
+       programs, freeing the dynamically allocated memory.
+    3. Redirection is no longer necessary (better for MacIntosh
+       computers).
+        a. Writes output to the screen and to a default file (see
+           printf2()).
+        b. Added NAA_do_first() to the beginning of main() in each .c
+           file.
+        c. Added NAA_do_last() to the end of main() in each .c file.
+        d. Use printf2() to replace printf() and fprintf(file_id,...)
+           pairs.
+    4. Re-commented all code to better identify the INPUTS, ALGORITHM,
+       and OUTPUTS.
+    5. Moved all files to a single directory (root).
+    6. Use more detailed and useful error messages in some programs.
+    7. Removed all the "#include <stdio.h>"s, "#include <math.h>"s,
+       and #define PI 3.1415... from the .c files, placing them inside
+       of NAAUTIL.H instead.
+    8. Placed [char *outfile = "041.out";] for default output file. 
+       Each program has a unique name "XXX.out".
+    9. Replaced the line:
+        "ch = getchar();  /* Filters out CR/LF */"     with
+        "getchar()        /* Cleans up after scanf(). */".
+   10. Show default responses to all getchar() prompts.
+   11. List which homework problems the ___B,C,D.C programs were
+       written for as a note in each file.
+   12. List which programs where modified or not included into the 4th
+       edition of the text.
+   13. Documented known text errors in the source code as well as in a
+       list.
+   14. Added DBL_DIG constant when reading the number of desired
+       significant digits for rounding (and truncation).  Effected 9
+       programs.
+
+  CHAPTER 1:
+    1.  "ROUND.H" - Added #include <float.h> for #define DBL_DIG used
+                    in several of the algorithms (Ch 3,4,6,9). 
+                    Changed return value from type float to type
+                    double.
+
+    2.  "TRUNC.H" - Renamed CHOP.H to TRUNC.H and chop() to trunc().  
+                    Added #include <float.h> for #define DBL_DIG used
+                    in several of the algorithms (Ch 3,4,6,9). 
+                    Changed return value from type float to type
+                    double.
+    3.  NAAUTIL.H
+        a. Renamed NAA_UTIL.H to NAAUTIL.H since a file transfer from
+           ProComm to a VAX removed it.  Should make this file a
+           little more portable.
+        b. Added NAA_do_first() and NAA_do_last() to replace
+           get_title() and to open and close an output file.
+        c. Added two global variables previously used with v4.1's
+           get_title().
+        d. Removed nrerror() and substituted naaerror() in its place.
+           Files effected:
+              1.  028A.C        3.  NAAUTIL.H          5.  NAAUTIL3.H
+              2.  060C.C        4.  NAAUTIL2.H         6.  GAUSSJ.H
+        e. Added eight new #defines:
+          1.  TRUE         - Boolean for true.  Equals 1 in C. 
+          2.  FALSE        - Boolean for false.  Equals 0 in C. 
+          3.  ANSI         - For compatibility with non-ANSI C
+                             compilers.
+          4.  FILE_SAVE    - To save output to a file or not.
+          5.  MSDOS_OS     - Indicates using MS-DOS operating system.
+          6.  UNIX_OS      - Indicates using the UNIX operating
+                             system.
+          7.  MACINTOSH_OS - Indicates using a Macintosh operating
+                             system.
+          8.  TITLE_PROMPT - Can turn off the title prompt.
+          9.  EQ_EVAL      - Invokes the Equation Evaluator.
+          10. NAAUTIL_OBJ  - For using pre-compiled object code.
+      f. Added #define PI 3.1415... to 40 decimal places.
+
+    4.  NAAUTIL2.H
+        a. Renamed NAA_UTI2.H to NAAUTIL2.H for VAX compatibility.
+        b. Moved all complex routines into "NAAUTIL3.H".
+        c. Added cube() and free_cube() (for floats) and imatrix() and
+           free_imatrix() (for integers) for completeness.
+
+  CHAPTER 2:
+    1. "028A.C" - Fixed crash when solving "X^4 + 1 = 0." (Had
+                  division by 0.)
+
+  CHAPTER 3:
+
+  CHAPTER 4:
+    1. "043.C"  - Replaced ldexp() with "<<" bit shifting for speed.
+    2. "043B.C" - Made it easy to add more Legendre polynomial
+                  coefficients.
+    3. "044C.C" - Made it easy to add more Legendre polynomial
+                  coefficients.
+    4. "045.C"  - Replaced hypot(x,y) with sqrt(x*x + y*y) for
+                  compatibility.
+    5. "045B.C" - Replaced hypot(x,y) with sqrt(x*x + y*y) for
+                  compatibility.
+    6. "045C.C" - Replaced hypot(x,y) with sqrt(x*x + y*y) for
+                  compatibility.  Made it easy to add more Legendre
+                  polynomial coefficients.
+
+  CHAPTER 5:
+
+  CHAPTER 6:
+    1. ALL - Separated the output portion from the input portion of
+             getting a matrix or vector.
+
+  CHAPTER 7:
+    1. "070B.C" - Now solves for the Euclidean Norm of a matrix or
+                  gives help in solving it by hand.  See the
+                  Euclidean_Norm_A() routine.
+
+  CHAPTER 8:
+    1. "081.C"  - Replaced ldexp() with "<<" bit shifting for speed.
+
+  CHAPTER 9:
+    1. "095.C"  - Replaced both A1 and A2 with A.  3rd edition
+                  algorithm was in error, not allowing this to be
+                  done.  Added speed comments.
+    2. "095B.C" - Commented its error saying A may be over-written.
+    3. "095C.C" - Modified Step #7 to make it work correctly.  Text is
+                  in error leaving this step out on p. 54.  Also
+                  replaced both A1 and A2 with A.
+    4. "095D.C" - Also replaced both A1 and A2 with A.
+    5. "096.C"  - Deleted an incomplete "fprintf(stderr," from line
+                  117.
+
+  CHAPTER 10:
+
+  CHAPTER 11:
+    1. "113B.C"  - Replaced ldexp() with "<<" bit shifting for speed.
+    2. "114B.C"  - Replaced ldexp() with "<<" bit shifting for speed.
+
+  CHAPTER 12:
+    1. "125.C" - Nearly works except for the integration routines,
+                 which need further testing.  Strangely,
+                 free_dmatrix(NN,1,3,1,M); causes a null pointer
+                 assignment error when using the Microsoft C 5.0
+                 compiler.
+
+
+----------------------------------------------------------------------
+
+5.  Changed the following documents:
+
+    a. Combined README.DOC with MATH.DOC, placing them inside
+       USERSMAN.DOC.  Basically rewrote the book.
+
+----------------------------------------------------------------------
+
+6. Additional Enhancements:
+    a. Now Supply executables for MS-DOS (.EXE) and MacIntosh
+       computers.
+    b. Placed less source files and more executables on the DEMO
+       disks.
+
+
+**********************************************************************
+Future Plans
+
+"Numerical Analysis Algorithms" is currently only available in the C
+language.  A FORTRAN 77 version is due by the end of this year (4Q
+1991).  Pascal and C++ versions are also in the works.  Please give us
+feedback on versions in other languages that you would like to see.
+
+Sample algorithms are shown in Appendix C - Sample Programs in Other
+Languages.  Languages shown are: Ada, BASIC, C, C++, FORTRAN 77, and
+Pascal.  Each one of these programs implement Simpson's Rule for
+Integration - Algorithm 4.1.  They essentially perform the same when
+run.
+
+A FORTRAN version is available from the authors of the text "Numerical
+Analysis" for professors only.  It implements the algorithms as
+subroutines to be run in a batch environment.
+
+"Numerical Analysis Algorithms in FORTRAN" v4.0 (forthcomming from
+Care-Free Software) implements the algorithms as stand-alone programs
+which prompt for the required inputs.  There is no need to do further
+work to get the program to run...just compile them as they are.  The
+NAA version also includes the modifications requested for in the
+homework exercises.
+
+Programmer's Note:  It is the programmer's intent to keep this product
+current.  If a fifth edition of the text is published, a version 5.0
+of this software is sure to follow.
+
+
+**********************************************************************
+*  Written by:  Harold A. Toomey, CARE-FREE SOFTWARE, 2Q 1991, v4.2  *
+*  Copyright (C) 1988-1991, Harold A. Toomey, All Rights Reserved.   *
+**********************************************************************

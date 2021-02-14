@@ -1,0 +1,1421 @@
+{\rtf1\ansi \deflang1033\deff0{\fonttbl
+{\f0\fnil \fcharset0 \fprq2 Dutch 801;}{\f1\fnil \fcharset0 \fprq2 Swiss 721;}{\f2\fnil \fcharset0 \fprq2 Bitstream Cooper;}
+{\f3\fnil \fcharset0 \fprq2 WP MathB;}{\f4\fnil \fcharset0 \fprq2 Arial;}{\f5\fnil \fcharset0 \fprq2 ;}}{\colortbl
+\red0\green0\blue0;}
+{\stylesheet{\fs20 \snext0 Normal;}
+{\*\cs1 \additive T;}
+{\*\cs2 \additive A;}
+{\*\ds3 ASCII Text;}
+{\*\ds4 Sub-Sub Chap;}
+{\*\ds5 Body Text;}
+{\*\ds6 Source Code;}
+{\*\ds7 Sub-Chapter;}
+{\*\ds8 Chapter;}
+}\margl1440\margr1440\margt1080\margb1080\ftnbj\ftnrestart\aftnnar \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0 
+{\plain \par
+}{\plain \par
+}{\plain \par
+}\pard \qc\sl0 
+{\plain \b\f1\fs68 Numerical Analysis\par
+}\pard \qc\sl0 
+{\plain \b\f1\fs68 Algorithms in C}{\plain \b\f1\fs40 \par
+}\pard \qc\sl0 
+{\plain \b\f1\fs40 Version 4.2}{\plain \b\f1\fs32 \par
+}\pard \qj\sl0 
+{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}\pard \qj\sl0\pvpara\posyt\phmrg\posxc\absh2880 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal3916\pichGoal2880
+0100090000033f0600000c003f01000000000400000003010100050000000b0200000000050000000c02c00005010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04c20007010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d00ac006e00ae00700082009c0047006100820026008200250083002500bd005f00bd006000b1006c00b0006b00ad006e00ac006e00040000002d010200040000002d0102002000000025030e007b005a00
+7e0058008500580088005a008a005d008b0060008a00640088006700850069007e0069007b0067007900640079005d007b005a00040000002d010200040000002d0102002600000025031100780057007d00540082005300880054008c0057008f005b00900061008f0066008c006a0087006d0082006f007c006e0078006b
+00750066007400610075005b0078005700040000002d010200040000002d01020026000000250311007a0059007d00570082005600860057008a0059008c005c008d0061008c0065008900680086006a0082006b007d006a007a006800780065007700610078005c007a005900040000002d010200040000002d0102001000
+00002503060089006f008b006e008d0070008b0072008900710089006f00040000002d010200040000002d0102000e0000002503050083002900b9005f00ac006d007600370083002900040000002d010200040000002d01020032000000250317006500780070006d0071006d0072006c0074006c0075006d0076006d0076
+006e0077006f00770070007600700076007200750072006b007d006a007e0066007e0066007d0065007d0065007c0064007c00640079006500790065007800040000002d0102001c000000fb02ceff00000000000090010000000007000022417269616c00f4774000000002070a1953a8f4775ca8f4770100000000003000
+040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02ceff00000a000a0090010000000007000022417269616c
+00f47740000000e7060a3653a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02ceff0000
+0a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003400000024031800a6001200c1001100c2001e00c0001e00bf001b00bf001900be
+001800bd001600bc001500ba001400ae001400b8002200ac003100bc003100be003000c0002e00c0002c00c1002a00c1002800c3002800c2003500a5003600b3002400a6001200040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02ccff0000000000009001
+0000000007000022417269616c00f47740000000e7060a3753a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d00000005000000020101
+00000005000000090200000002040000002d010400040000002d0103001c000000fb02ccff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320aa800a800010000002a001c00050000001402a800c400040000002d01
+04001c000000fb02ddff00000000000090010000000007000022417269616c00f4774000000006070a4253a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e011800000004000000080100
+000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02ddff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a4e003a00010000006d00
+16000500000014024e005000040000002d0104001c000000fb02ddff00000000000090010000000007000022417269616c00f477400000000b070a1853a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d010900050000000902000000
+02050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ddff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01
+0a0009000000320a8b00370001000000e8001d000500000014028b005400040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d000000050000000201010000
+0005000000090200000002040000002d010400040000002d01090009000000320aa8003b000100000041001700050000001402a8005200040000002d0104001c000000fb02f3ff00000000000090010000000007000022417269616c00f477400000000e070a0153a8f4775ca8f4770100000000003000040000002d010b00
+040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02f3ff00004e0c4e0c90010000000007000022417269616c00f4774000000002070a2053a8f4775c
+a8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d0106003f01000038050d001e00
+0200090008000f000a000d0005000b000f0007000d000d0088003b0089003c0085003c0082003900820038008300370083003600840034008500340086003300890033008a0034008b0034008c0035008c0038008b0039008a0038008b0037008b003600890034008600340086003500850035008400360084003700830038
+008400390084003a0085003b0088003b0088003b0088003b0087003e0090003a0091003b008d0044008c0043008d0040008a003d0087003f0087003e008b003d008d003f008f003d008f003c0090003b008f003b008e003c008b003d008e00460095003f009900430099004600980047009600470095004600950048009400
+4c0093004a009400480094004500920043008f0046008e0046009300430095004500960045009700460097004500980045009800440097004300950040009300430095004c009b004500a0004a00a0004b009c004700990049009d004d009c004d0099004a0096004c009b0050009a00510095004c009d0050009d004f00a0
+0052009f0052009d0050009f005600a5004f00aa005400a9005400a5005100a3005300a7005600a6005700a3005400a00057009f005600a4005b00ab005500af005900af005c00ae005d00ac005d00ab005c00ab005e00aa006100a9006000aa005e00aa005b00a8005900a5005c00a4005b00a9005900ab005a00ac005b00
+ae005b00ae005900ab005600a9005900ab006200b1005b00b6006000b5006100b1005d00af005f00b3006300b2006300af006000ac006200b0006600b0006700ab006200b1006800b8006100bd006600bc006700b8006300b6006500b9006900b9006a00b5006600b3006800b7006c00b6006d00b1006800040000002d0102
+00040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpara\posyt\phmrg\posxc\absh2880 
+\par
+\pard \qj\sl0 
+{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}\pard \qc\sl0 
+{\plain \b\f1\fs68 Examples Book}{\plain \b\f1\fs32 \par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 For\par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 "Numerical Analysis", fourth edition\par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 Richard L. Burden and J. Douglas Faires\par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 1988\par
+}\pard \qj\sl0 
+{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}{\plain \b\f1\fs32 \par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 Written by:\par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 Harold A. Toomey, MSEE}{\plain \b\f2\fs32 \par
+}\pard \qc\sl0 
+{\plain \b\f2\fs32 Care-Free Software}{\plain \b\f1\fs32 \par
+}\pard \qc\sl0 
+{\plain \b\f1\fs32 3rd Quarter 1991\par
+}\pard \qj\sl0 
+{\plain \b\f1\fs32 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0 
+{\plain \f1 \par
+}{\plain \f1  \par
+}{\plain \b\f1 Technical Publications:}{\plain \f1 \par
+}{\plain Harold A. Toomey\par
+}{\plain \par
+}{\plain \b\f1 Programming:}{\plain \f1 \par
+}{\plain Harold A. Toomey\par
+}{\plain \par
+}{\plain  \par
+}{\plain \f1 }{\plain \b\f1 \'a9 Copyright 1988-1993, Harold A. Toomey - All rights reserved}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain This document contains proprietary information of Harold A. Toomey and is protected by Federal 
+copyright law.  The contents of this document may not be disclosed to third parties or copied or duplicated 
+in any form, in whole or in part, without prior written consent of Harold A. Toomey.  Limited rights exist 
+for individual and university site licenses.  The software may be used or copied only in accordance with the 
+terms of the license agreement.  Students may copy this software with the intent to join the $20.00 Club, 
+paying for the right to use this software.  See the sample license agreements in the User's Manual.\par
+}{\plain \par
+}{\plain The information in this document is subject to change without notice.\par
+}{\plain \par
+}{\plain \par
+}{\plain \f1 }{\plain \b\f1 "Numerical Analysis Algorithms in C" Examples Book\par
+}{\plain \b\f1 Version 4.2\par
+}{\plain \b\f1 Document Number 9307-42C-EB2\par
+}{\plain \b\f1 \par
+}{\plain \b\f1 \par
+}{\plain \b\f2 Care-Free Software}{\plain \b\f1 \par
+}{\plain \b\f1 Attn: Harold Allen Toomey\par
+}{\plain \b\f1 464 North 750 East\par
+}{\plain \b\f1 Lindon, UT  84042\par
+}{\plain \b\f1 1-801-785-0464}{\plain \f1 \par
+}\sect \sectd \pgnrestart\pgnlcrm\pgnx6120\pgny15120\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0 
+{\plain \b\f1\fs40 Table of Contents}{\plain \f1 \par
+}\pard \qj\sl0 
+{\plain \f1 \par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 1\tab Mathematical Preliminaries}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 COMPLEX.C\tab - "Numerical Recipes in C" Complex Number Routines\par
+}{\plain \f1 EQEVAL.C\tab - Equation Evaluator Routines\par
+}{\plain \f1 GAUSSJ.C\tab - "Numerical Recipes in C" Gauss-Jordan Matrix Solver\par
+}{\plain \f1 NAAUTIL.C\tab - "Numerical Analysis Algorithms in C" Utilities I\tab (standard)\par
+}{\plain \f1 NAAUTIL2.C\tab - "Numerical Analysis Algorithms in C" Utilities II\tab (extended)\par
+}{\plain \f1 NAAUTIL3.C\tab - "Numerical Analysis Algorithms in C" Utilities III\tab (complex)\par
+}{\plain \f1 ROUND.C\tab - Rounds a floating point value to SIG significant digits\par
+}{\plain \f1 TRUNC.C\tab - Truncates a floating point value to SIG significant digits\par
+}{\plain \f1 011B.C*\tab - Taylor Polynomial Approximation\tab \tab \tab Algorithm 1.1B\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 2\tab Solutions of Equations in One Variable}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 021.C*\tab -  Bisection (or Binary-Search)\tab \tab \tab Algorithm 2.1\par
+}{\plain \f1 022.C*\tab -  Fixed-Point\tab \tab \tab \tab \tab Algorithm 2.2\par
+}{\plain \f1 023.C\tab -  Newton-Raphson\tab \tab \tab \tab Algorithm 2.3\par
+}{\plain \f1 024.C*\tab -  Secant\tab \tab \tab \tab \tab Algorithm 2.4\par
+}{\plain \f1 024B.C*\tab -  Method of False Position (or Regula Falsi)\tab \tab Algorithm 2.4B\par
+}{\plain \f1 024C.C\tab -  Modified Newton-Raphson Method\tab \tab \tab Algorithm 2.4C\par
+}{\plain \f1 025.C*\tab -  Steffensen\tab \tab \tab \tab \tab Algorithm 2.5\par
+}{\plain \f1 026.C*\tab -  Horner\tab \tab \tab \tab \tab Algorithm 2.6\par
+}{\plain \f1 027.C*\tab -  M\'fcller\tab \tab \tab \tab \tab Algorithm 2.7\par
+}{\plain \f1 028A.C*\tab +  Complex Polynomial Solver (CPOLY)\tab \tab Algorithm 2.8A\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 3\tab Interpolation and Polynomial Approximation}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 031.C*\tab -  Neville's Iterated Interpolation\tab \tab \tab Algorithm 3.1\par
+}{\plain \f1 031B.C*\tab -  Neville's Iterated Interpolation (with rounding)\tab \tab Algorithm 3.1B\par
+}{\plain \f1 031C.C*\tab -  Aitken's Iterated Interpolation\tab \tab \tab Algorithm 3.1C\par
+}{\plain \f1 032.C*\tab -  Newton's Interpolatory Divided-Difference Formula\tab Algorithm 3.2\par
+}{\plain \f1 033.C*\tab -  Hermite Interpolation\tab \tab \tab \tab Algorithm 3.3\par
+}{\plain \f1 034.C*\tab -  Natural Cubic Spline\tab \tab \tab \tab Algorithm 3.4\par
+}{\plain \f1 035.C*\tab -  Clamped Cubic Spline\tab \tab \tab \tab Algorithm 3.5\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 4\tab Numerical Differentiation and Integration}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 040B1.C\tab -  1st Derivative Approximation (for functions)\tab \tab Algorithm 4.0B1\par
+}{\plain \f1 040B2.C*\tab -  1st Derivative Approximation (for tabulated data)\tab Algorithm 4.0B2\par
+}{\plain \f1 040B3.C\tab -  1st Derivative Approximation (for functions w/TOL)\tab Algorithm 4.0B3\par
+}{\plain \f1 040C1.C\tab -  2nd Derivative Approximation (for functions)\tab \tab Algorithm 4.0C1\par
+}{\plain \f1 040C2.C*\tab -  2nd Derivative Approximation (for tabulated data)\tab Algorithm 4.0C2\par
+}{\plain \f1 040D1.C*\tab -  Richardson's Extrapolation\tab \tab \tab Algorithm 4.0D1\par
+}{\plain \f1 040D2.C*\tab -  Richardson's Extrapolation (with rounding)\tab \tab Algorithm 4.0D2\par
+}{\plain \f1 041.C*\tab -  Composite Simpson's Rule\tab \tab \tab Algorithm 4.1\par
+}{\plain \f1 041B.C*\tab -  Composite Trapezoidal Rule\tab \tab \tab Algorithm 4.1B\par
+}{\plain \f1 041C.C*\tab -  Composite Midpoint Rule\tab \tab \tab Algorithm 4.1C\par
+}{\plain \f1 041D.C*\tab -  Newton-Cotes Formulas for Integrals (8 total)\tab \tab Algorithm 4.1D\par
+}{\plain \f1 042.C*\tab -  Adaptive Quadrature\tab \tab \tab \tab Algorithm 4.2\par
+}{\plain \f1 043.C*\tab -  Romberg\tab \tab \tab \tab \tab Algorithm 4.3\par
+}{\plain \f1 043B.C*\tab -  Gaussian Quadrature\tab \tab \tab \tab Algorithm 4.3B\par
+}{\plain \f1 044.C\tab -  Composite Simpson's Rule for Double Integrals\tab Algorithm 4.4\par
+}{\plain \f1 044B.C\tab -  Composite Trapezoid Rule for Double Integrals\tab Algorithm 4.4B\par
+}{\plain \f1 044C.C\tab -  Gaussian Quadrature for Double Integrals\tab \tab Algorithm 4.4C\par
+}{\plain \f1 045.C\tab -  Composite Simpson's Rule for Triple Integrals\tab \tab Algorithm 4.5\par
+}{\plain \f1 045B.C\tab -  Composite Trapezoid Rule for Triple Integrals\tab \tab Algorithm 4.5B\par
+}{\plain \f1 045C.C\tab -  Gaussian Quadrature for Triple Integrals\tab \tab Algorithm 4.5C\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 5\tab Initial-Value Problems for Ordinary Differential Equations}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 051.C*\tab -  Euler\tab \tab \tab \tab \tab Algorithm 5.1\par
+}{\plain \f1 051B.C*\tab -  Midpoint, Modified Euler, and Heun's Methods\tab Algorithm 5.1B\par
+}{\plain \f1 052.C*\tab -  Runge-Kutta (Order Four)\tab \tab \tab Algorithm 5.2\par
+}{\plain \f1 053.C\tab -  Runge-Kutta-Fehlberg\tab \tab \tab \tab Algorithm 5.3\par
+}{\plain \f1 054.C*\tab -  Adam's Fourth-Order Predictor-Corrector\tab \tab Algorithm 5.4\par
+}{\plain \f1 054B.C*\tab -  Adams-Bashforth (all four) and Milne's Methods\tab Algorithm 5.4B\par
+}{\plain \f1 054C.C*\tab -  Milne-Simpson Predictor-Corrector\tab \tab \tab Algorithm 5.4C\par
+}{\plain \f1 055.C*\tab -  Adam's Variable Step-size Predictor-Corrector\tab \tab Algorithm 5.5\par
+}{\plain \f1 056.C*\tab +  Extrapolation\tab \tab \tab \tab \tab Algorithm 5.6\par
+}{\plain \f1 057.C\tab -  Runge-Kutta for Systems of Differential Equations\tab Algorithm 5.7\par
+}{\plain \f1 057B.C\tab -  Euler's Variable Step-Size for Systems\tab \tab Algorithm 5.7B\par
+}{\plain \f1 058.C\tab -  Trapezoidal with Newton Iteration\tab \tab \tab Algorithm 5.8\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 6\tab Direct Methods for Solving Linear Systems}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 060B.C*\tab -  Matrix Inverter\tab \tab \tab \tab \tab Algorithm 6.0B\par
+}{\plain \f1 060C.C*\tab -  Determinant of a Matrix\tab \tab \tab \tab Algorithm 6.0C\par
+}{\plain \f1 060D.C*\tab -  Matrix Multiplier\tab \tab \tab \tab Algorithm 6.0D\par
+}{\plain \f1 061.C*\tab -  Gaussian Elimination with Backward Substitution\tab Algorithm 6.1\par
+}{\plain \f1 061B.C*\tab -  Gaussian Elimination with Backward Substitution\tab Algorithm 6.1B  \par
+}{\plain \f1 \tab    (with rounding)\par
+}{\plain \f1 061C1.C*\tab - Gauss-Jordan Method\tab \tab \tab \tab Algorithm 6.1C1\par
+}{\plain \f1 061C2.C*\tab - Gauss-Jordan Method (with rounding)\tab \tab Algorithm 6.1C2\par
+}{\plain \f1 061D1.C*\tab - Gaussian-Elimination - Gauss-Jordan Hybrid Method\tab Algorithm 6.1D1\par
+}{\plain \f1 061D2.C*\tab - Gaussian-Elimination - Gauss-Jordan Hybrid Method\tab Algorithm 6.1D2\par
+}{\plain \f1 \tab   (with rounding)\par
+}{\plain \f1 062.C*\tab -  Gaussian Elimination with Maximal Column Pivoting\tab Algorithm 6.2\par
+}{\plain \f1 062B.C*\tab -  Gaussian Elimination with Maximal Column Pivoting\tab Algorithm 6.2B\par
+}{\plain \f1 \tab    (with rounding)\par
+}{\plain \f1 063.C*\tab -  Gaussian Elimination with Scaled Column Pivoting\tab Algorithm 6.3\par
+}{\plain \f1 063B.C*\tab -  Gaussian Elimination with Scaled Column Pivoting\tab Algorithm 6.3B\par
+}{\plain \f1 \tab    (with rounding)\par
+}{\plain \f1 064.C*\tab -  Direct Factorization\tab \tab \tab \tab Algorithm 6.4\par
+}{\plain \f1 064B.C*\tab -  Direct Factorization which solves AX=B\tab \tab Algorithm 6.4B\par
+}{\plain \f1 064C.C*\tab -  Direct Factorization with Maximal Column Pivoting\tab Algorithm 6.4C\par
+}{\plain \f1 \tab    (3rd edition)\par
+}{\plain \f1 065.C*\tab -  LDLt Factorization\tab \tab \tab \tab Algorithm 6.5\par
+}{\plain \f1 065B.C*\tab -  LDLt Factorization which solves AX=B\tab \tab Algorithm 6.5B\par
+}{\plain \f1 066.C*\tab -  Choleski\tab \tab \tab \tab \tab Algorithm 6.6\par
+}{\plain \f1 066B.C*\tab -  Choleski which solves AX=B\tab \tab \tab Algorithm 6.6B\par
+}{\plain \f1 067.C*\tab -  Crout Reduction for Tridiagonal Linear Systems\tab Algorithm 6.7\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 7\tab Iterative Techniques in Matrix Algebra}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 070B.C*\tab -  Vector and Matrix Norms\tab \tab \tab \tab Algorithm 7.0B\par
+}{\plain \f1 071.C*\tab -  Jacobi Iterative\tab \tab \tab \tab Algorithm 7.1\par
+}{\plain \f1 072.C*\tab -  Gauss-Seidel Iterative\tab \tab \tab \tab Algorithm 7.2\par
+}{\plain \f1 073.C*\tab -  Successive Over Relaxation (SOR)\tab \tab \tab Algorithm 7.3\par
+}{\plain \f1 074.C*\tab -  Iterative Refinement (with rounding)\tab \tab \tab Algorithm 7.4\par
+}{\plain \f1 074B.C*\tab -  Iterative Refinement (single-precision)\tab \tab Algorithm 7.4B\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 8\tab Approximation Theory}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 080B.C*\tab -  Least-Squares Polynomial Approximation\tab \tab Algorithm 8.0B\par
+}{\plain \f1 081.C*\tab +  Fast Fourier Transformation\tab \tab \tab Algorithm 8.1\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 9\tab Approximating Eigenvalues}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 091.C*\tab -  Power Method\tab \tab \tab \tab Algorithm 9.1\par
+}{\plain \f1 091B.C*\tab -  Power Method with Aitken's Delta^2 Method\tab \tab Algorithm 9.1B\par
+}{\plain \f1 092.C*\tab -  Symmetric Power Method\tab \tab \tab Algorithm 9.2\par
+}{\plain \f1 093.C*\tab -  Inverse Power Method\tab \tab \tab \tab Algorithm 9.3\par
+}{\plain \f1 094.C*\tab -  Wielandt's Deflation\tab \tab \tab \tab Algorithm 9.4\par
+}{\plain \f1 094B.C*\tab -  Wielandt's Deflation using Power Method for\tab \tab Algorithm 9.4B\par
+}{\plain \f1 \tab    lambda1\par
+}{\plain \f1 095.C*\tab -  Householder Method\tab \tab \tab \tab Algorithm 9.5\par
+}{\plain \f1 095B.C*\tab -  Householder Method (3rd edition)\tab \tab \tab Algorithm 9.5B\par
+}{\plain \f1 095C.C*\tab -  Householder Method for Non-Symmetric Matrices\tab Algorithm 9.5C\par
+}{\plain \f1 \tab    (Upper Hessenberg)\par
+}{\plain \f1 095D.C*\tab -  Householder Method (with rounding)\tab \tab Algorithm 9.5D\par
+}{\plain \f1 096.C*\tab -  QR Algorithm\tab \tab \tab \tab \tab Algorithm 9.6\par
+}{\plain \f1 096B.C*\tab -  QL Algorithm (3rd edition)\tab \tab \tab Algorithm 9.6B\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 10\tab Numerical Solutions of Nonlinear Systems of Equations}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 101.C\tab -  Newton's Method for Systems\tab \tab \tab Algorithm 10.1\par
+}{\plain \f1 101A.C\tab -  Steffensen's Method for Systems\tab \tab \tab Algorithm 10.1A\par
+}{\plain \f1 102.C\tab -  Broyden's Method for Systems\tab \tab \tab Algorithm 10.2\par
+}{\plain \f1 103.C\tab -  Steepest Descent Method (with F(x) and J(x))\tab \tab Algorithm 10.3\par
+}{\plain \f1 103B.C\tab -  Steepest Descent Method (with G(x) and gradG(x))\tab Algorithm 10.3B\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 11\tab Boundary-Value Problems for Ordinary Differential Equations}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 111.C\tab -  Linear Shooting\tab \tab \tab \tab Algorithm 11.1\par
+}{\plain \f1 112.C\tab -  Nonlinear Shooting with Newton's Method\tab \tab Algorithm 11.2\par
+}{\plain \f1 112B.C\tab -  Nonlinear Shooting with Secant Method\tab \tab Algorithm 11.2B\par
+}{\plain \f1 113.C\tab -  Linear Finite Difference\tab \tab \tab \tab Algorithm 11.3\par
+}{\plain \f1 113B.C\tab -  Linear Finite Difference (Richardson's Extrapolation)\tab Algorithm 11.3B\par
+}{\plain \f1 114.C\tab -  Nonlinear Finite Difference\tab \tab \tab Algorithm 11.4\par
+}{\plain \f1 114B.C\tab -  Nonlinear Finite Difference (Richardson's Extrap.)\tab Algorithm 11.4B\par
+}{\plain \f1 115.C\tab -  Piecewise Linear Rayleigh-Ritz\tab \tab \tab Algorithm 11.5\par
+}{\plain \f1 116.C\tab -  Cubic Spline Rayleigh-Ritz\tab \tab \tab Algorithm 11.6\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 CHAPTER 12\tab Numerical Solutions to Partial-Differential Equations}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 121.C\tab -  Poisson Equation Finite-Difference (Elliptic)\tab \tab Algorithm 12.1\par
+}{\plain \f1 122.C*\tab -  Heat Equation Backward-Difference (Parabolic)\tab Algorithm 12.2\par
+}{\plain \f1 122B.C*\tab -  Heat Equation Forward-Difference (Parabolic)\tab \tab Algorithm 12.2B\par
+}{\plain \f1 122C.C*\tab -  Heat Equation Richardson's Method (Parabolic)\tab Algorithm 12.2C\par
+}{\plain \f1 123.C*\tab -  Crank-Nicolson (Parabolic)\tab \tab \tab Algorithm 12.3\par
+}{\plain \f1 124.C\tab -  Wave Equation Finite-Difference (Hyperbolic)\tab \tab Algorithm 12.4\par
+}{\plain \f1 125.C\tab -  Finite-Element\tab \tab \tab \tab \tab Algorithm 12.5\par
+}{\plain \f1 126A.C\tab -  Parabolic Equations With Newton Iteration in 1-D\tab Algorithm 12.6A\par
+}{\plain \f1 127A.C\tab -  Parabolic Equations With Newton Iteration in 2-D\tab Algorithm 12.7A\par
+}{\plain \f1 128A.C\tab -  Elliptic Equations With Newton Iteration in 2-D\tab \tab Algorithm 12.8A\par
+}{\plain \f1 129A.C\tab -  Biharmonic Equation Using Gauss-Jordan Method\tab Algorithm 12.9A\par
+}{\plain \f1 \par
+}{\plain \f1  \par
+}{\field{\*\fldinst ADVANCE \\d 1}{\fldrslt }}{\plain \f1 }{\plain \b\f1 APPENDIX A\tab "Numerical Analysis Algorithms in C" Supporting C Source Code}{\plain \f1 \par
+}{\field{\*\fldinst ADVANCE \\u 6}{\fldrslt }}{\plain \f1  \par
+}{\plain \f1 \par
+}{\plain \f1 041EE.C*\tab - Composite Simpson's Rule Using the Equation Evaluator Routines\par
+}{\plain \f1 041FUN.C\tab - Composite Simpson's Rule as a Function\par
+}{\plain \f1 CONVERT.C*\tab - Converts Files from 8-bit Extended ASCII to 7-bit Standard ASCII\par
+}{\plain \f1 EE.C*\tab - Command-Line Calculator using the Equation Evaluator Routines\par
+}\pard\page 
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain This Examples Book contains the C source code for over a hundred algorithms found in the text }{\plain \ul Numerical 
+Analysis}{\plain , fourth edition, Richard L. Burden and J. Douglas Faires.  The algorithms include listings of the 
+C source code as well as the accompanying output files for the examples problems given in the text.  The 
+inputs can be easily extracted from the output listings or can be obtained from the diskettes.  Other needed 
+programs and routines are printed in the appendix.\par
+}{\plain \par
+}{\plain The '+'s above mean the program may need a larger stack when compiled and linked.\par
+}{\plain \par
+}{\plain The '*'s after the above algorithms mean the programs need to be compiled only once.  After the initial 
+compilation, the executable can be used over and over again.\par
+}{\plain \par
+}{\plain See the User's Manual for a detailed description on how to use these algorithms most effectively.\par
+}{\plain \par
+}{\plain The header file "naautil.c" is included inside every algorithm.  This is the only file which may need to be 
+modified.  It contains some flags which can be set to make the code more portable for various compilers.  
+It also contains flags which allow the user to turn on or off the following options:\par
+}{\plain \par
+}{\plain \tab 1.  Prompt for an optional title\par
+}{\plain \tab 2.  Save output to a file\par
+}{\plain \tab 3.  Use the Equation Evaluator Routines\par
+}{\plain \par
+}{\plain The following compilers have successfully run all of the "Numerical Analysis Algorithms in C" v4.2 
+programs:\par
+}{\plain \par
+}{\plain \tab 1.  Microsoft C 5.0 for MS-DOS on an IBM PC\par
+}{\plain \tab 2.  THINK C 4.0 on a Macintosh SE\tab (Set ANSI_FUNCT == TRUE)\par
+}{\plain \tab 3.  MIPS C compiler (IRIX 3.3.1) on a Silicon Graphics 4D workstation\par
+}{\plain \tab 4.  VAX C v3.1 and v3.2 compilers on a VAX\par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 1\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Mathematical\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Preliminaries\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f47740000000f9060afc53a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f47740000000f9060afe53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f47740000000f9060aff53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000006070a4353a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d06210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab253a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e81e2c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000010070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f47740000000b2060a3153
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx398\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 }{\plain \f1 }{\plain \b\f1 CHAPTER 1\tab Mathematical Preliminaries}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 COMPLEX.C\tab - "Numerical Recipes in C" Complex Number Routines\par
+}{\plain \f1 EQEVAL.C\tab - Equation Evaluator Routines\par
+}{\plain \f1 GAUSSJ.C\tab - "Numerical Recipes in C" Gauss-Jordan Matrix Solver\par
+}{\plain \f1 NAAUTIL.C\tab - "Numerical Analysis Algorithms in C" Utilities I\tab (standard)\par
+}{\plain \f1 NAAUTIL2.C\tab - "Numerical Analysis Algorithms in C" Utilities II\tab (extended)\par
+}{\plain \f1 NAAUTIL3.C\tab - "Numerical Analysis Algorithms in C" Utilities III\tab (complex)\par
+}{\plain \f1 ROUND.C\tab - Rounds a floating point value to SIG significant digits\par
+}{\plain \f1 TRUNC.C\tab - Truncates a floating point value to SIG significant digits\par
+}{\plain \f1 011B.C*\tab - Taylor Polynomial Approximation\tab \tab \tab Algorithm 1.1B\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 2\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Solutions\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 of Equations\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 in One Variable\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f4774000000000070ac653a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f4774000000000070ac853a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f4774000000000070ac953a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f47740000000e4060a5753a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab353a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e81e2c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000011070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f47740000000fe060a4853
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 2\tab Solutions of Equations in One Variable}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 021.C*\tab -  Bisection (or Binary-Search)\tab \tab \tab Algorithm 2.1\par
+}{\plain \f1 022.C*\tab -  Fixed-Point\tab \tab \tab \tab \tab Algorithm 2.2\par
+}{\plain \f1 023.C\tab -  Newton-Raphson\tab \tab \tab \tab Algorithm 2.3\par
+}{\plain \f1 024.C*\tab -  Secant\tab \tab \tab \tab \tab Algorithm 2.4\par
+}{\plain \f1 024B.C*\tab -  Method of False Position (or Regula Falsi)\tab \tab Algorithm 2.4B\par
+}{\plain \f1 024C.C\tab -  Modified Newton-Raphson Method\tab \tab \tab Algorithm 2.4C\par
+}{\plain \f1 025.C*\tab -  Steffensen\tab \tab \tab \tab \tab Algorithm 2.5\par
+}{\plain \f1 026.C*\tab -  Horner\tab \tab \tab \tab \tab Algorithm 2.6\par
+}{\plain \f1 027.C*\tab -  M\'fcller\tab \tab \tab \tab \tab Algorithm 2.7\par
+}{\plain \f1 028A.C*\tab +  Complex Polynomial Solver (CPOLY)\tab \tab Algorithm 2.8A\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 3\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Interpolation\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 and Polynomial\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Approximation\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f47740000000f2060af353a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f47740000000f2060af553a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f47740000000f2060af653a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f47740000000f8060a7653a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d07210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab453a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000013070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f47740000000f3060a8a53
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 3\tab Interpolation and Polynomial Approximation}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 031.C*\tab -  Neville's Iterated Interpolation\tab \tab \tab Algorithm 3.1\par
+}{\plain \f1 031B.C*\tab -  Neville's Iterated Interpolation (with rounding)\tab \tab Algorithm 3.1B\par
+}{\plain \f1 031C.C*\tab -  Aitken's Iterated Interpolation\tab \tab \tab Algorithm 3.1C\par
+}{\plain \f1 032.C*\tab -  Newton's Interpolatory Divided-Difference Formula\tab Algorithm 3.2\par
+}{\plain \f1 033.C*\tab -  Hermite Interpolation\tab \tab \tab \tab Algorithm 3.3\par
+}{\plain \f1 034.C*\tab -  Natural Cubic Spline\tab \tab \tab \tab Algorithm 3.4\par
+}{\plain \f1 035.C*\tab -  Clamped Cubic Spline\tab \tab \tab \tab Algorithm 3.5\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 4\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Numerical\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Differentiation\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 and Integration\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f47740000000fd060a0853a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f47740000000fd060a0a53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f47740000000fd060a0b53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f477400000009d060a9e53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d07210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab553a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000015070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f477400000000d070a3053
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 4\tab Numerical Differentiation and Integration}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 040B1.C\tab -  1st Derivative Approximation (for functions)\tab \tab Algorithm 4.0B1\par
+}{\plain \f1 040B2.C*\tab -  1st Derivative Approximation (for tabulated data)\tab Algorithm 4.0B2\par
+}{\plain \f1 040B3.C\tab -  1st Derivative Approximation (for functions w/TOL)\tab Algorithm 4.0B3\par
+}{\plain \f1 040C1.C\tab -  2nd Derivative Approximation (for functions)\tab \tab Algorithm 4.0C1\par
+}{\plain \f1 040C2.C*\tab -  2nd Derivative Approximation (for tabulated data)\tab Algorithm 4.0C2\par
+}{\plain \f1 040D1.C*\tab -  Richardson's Extrapolation\tab \tab \tab Algorithm 4.0D1\par
+}{\plain \f1 040D2.C*\tab -  Richardson's Extrapolation (with rounding)\tab \tab Algorithm 4.0D2\par
+}{\plain \f1 041.C*\tab -  Composite Simpson's Rule\tab \tab \tab Algorithm 4.1\par
+}{\plain \f1 041B.C*\tab -  Composite Trapezoidal Rule\tab \tab \tab Algorithm 4.1B\par
+}{\plain \f1 041C.C*\tab -  Composite Midpoint Rule\tab \tab \tab Algorithm 4.1C\par
+}{\plain \f1 041D.C*\tab -  Newton-Cotes Formulas for Integrals (8 total)\tab \tab Algorithm 4.1D\par
+}{\plain \f1 042.C*\tab -  Adaptive Quadrature\tab \tab \tab \tab Algorithm 4.2\par
+}{\plain \f1 043.C*\tab -  Romberg\tab \tab \tab \tab \tab Algorithm 4.3\par
+}{\plain \f1 043B.C*\tab -  Gaussian Quadrature\tab \tab \tab \tab Algorithm 4.3B\par
+}{\plain \f1 044.C\tab -  Composite Simpson's Rule for Double Integrals\tab Algorithm 4.4\par
+}{\plain \f1 044B.C\tab -  Composite Trapezoid Rule for Double Integrals\tab Algorithm 4.4B\par
+}{\plain \f1 044C.C\tab -  Gaussian Quadrature for Double Integrals\tab \tab Algorithm 4.4C\par
+}{\plain \f1 045.C\tab -  Composite Simpson's Rule for Triple Integrals\tab \tab Algorithm 4.5\par
+}{\plain \f1 045B.C\tab -  Composite Trapezoid Rule for Triple Integrals\tab \tab Algorithm 4.5B\par
+}{\plain \f1 045C.C\tab -  Gaussian Quadrature for Triple Integrals\tab \tab Algorithm 4.5C\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 5\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Initial-Value Problems\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 for Ordinary\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Differential Equations\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f4774000000008070a4953a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f4774000000008070a4b53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f4774000000008070a4c53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f47740000000fa060a4b53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d1e210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab653a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000017070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f47740000000e4060a6553
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 5\tab Initial-Value Problems for Ordinary Differential Equations}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 051.C*\tab -  Euler\tab \tab \tab \tab \tab Algorithm 5.1\par
+}{\plain \f1 051B.C*\tab -  Midpoint, Modified Euler, and Heun's Methods\tab Algorithm 5.1B\par
+}{\plain \f1 052.C*\tab -  Runge-Kutta (Order Four)\tab \tab \tab Algorithm 5.2\par
+}{\plain \f1 053.C\tab -  Runge-Kutta-Fehlberg\tab \tab \tab \tab Algorithm 5.3\par
+}{\plain \f1 054.C*\tab -  Adam's Fourth-Order Predictor-Corrector\tab \tab Algorithm 5.4\par
+}{\plain \f1 054B.C*\tab -  Adams-Bashforth (all four) and Milne's Methods\tab Algorithm 5.4B\par
+}{\plain \f1 054C.C*\tab -  Milne-Simpson Predictor-Corrector\tab \tab \tab Algorithm 5.4C\par
+}{\plain \f1 055.C*\tab -  Adam's Variable Step-size Predictor-Corrector\tab \tab Algorithm 5.5\par
+}{\plain \f1 056.C*\tab +  Extrapolation\tab \tab \tab \tab \tab Algorithm 5.6\par
+}{\plain \f1 057.C\tab -  Runge-Kutta for Systems of Differential Equations\tab Algorithm 5.7\par
+}{\plain \f1 057B.C\tab -  Euler's Variable Step-Size for Systems\tab \tab Algorithm 5.7B\par
+}{\plain \f1 058.C\tab -  Trapezoidal with Newton Iteration\tab \tab \tab Algorithm 5.8\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 6\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Direct Methods\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 for Solving\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Linear Systems\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f4774000000006070a4a53a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f4774000000006070a4c53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f4774000000006070a4d53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f477400000000f070a1b53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab753a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e81e2c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000019070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f477400000000b070a4553
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 6\tab Direct Methods for Solving Linear Systems}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 060B.C*\tab -  Matrix Inverter\tab \tab \tab \tab \tab Algorithm 6.0B\par
+}{\plain \f1 060C.C*\tab -  Determinant of a Matrix\tab \tab \tab \tab Algorithm 6.0C\par
+}{\plain \f1 060D.C*\tab -  Matrix Multiplier\tab \tab \tab \tab Algorithm 6.0D\par
+}{\plain \f1 061.C*\tab -  Gaussian Elimination with Backward Substitution\tab Algorithm 6.1\par
+}{\plain \f1 061B.C*\tab -  Gaussian Elimination with Backward Substitution\tab Algorithm 6.1B  \par
+}{\plain \f1 \tab    (with rounding)\par
+}{\plain \f1 061C1.C*\tab - Gauss-Jordan Method\tab \tab \tab \tab Algorithm 6.1C1\par
+}{\plain \f1 061C2.C*\tab - Gauss-Jordan Method (with rounding)\tab \tab Algorithm 6.1C2\par
+}{\plain \f1 061D1.C*\tab - Gaussian-Elimination - Gauss-Jordan Hybrid Method\tab Algorithm 6.1D1\par
+}{\plain \f1 061D2.C*\tab - Gaussian-Elimination - Gauss-Jordan Hybrid Method\tab Algorithm 6.1D2\par
+}{\plain \f1 \tab   (with rounding)\par
+}{\plain \f1 062.C*\tab -  Gaussian Elimination with Maximal Column Pivoting\tab Algorithm 6.2\par
+}{\plain \f1 062B.C*\tab -  Gaussian Elimination with Maximal Column Pivoting\tab Algorithm 6.2B\par
+}{\plain \f1 \tab    (with rounding)\par
+}{\plain \f1 063.C*\tab -  Gaussian Elimination with Scaled Column Pivoting\tab Algorithm 6.3\par
+}{\plain \f1 063B.C*\tab -  Gaussian Elimination with Scaled Column Pivoting\tab Algorithm 6.3B\par
+}{\plain \f1 \tab    (with rounding)\par
+}{\plain \f1 064.C*\tab -  Direct Factorization\tab \tab \tab \tab Algorithm 6.4\par
+}{\plain \f1 064B.C*\tab -  Direct Factorization which solves AX=B\tab \tab Algorithm 6.4B\par
+}{\plain \f1 064C.C*\tab -  Direct Factorization with Maximal Column Pivoting\tab Algorithm 6.4C\par
+}{\plain \f1 \tab    (3rd edition)\par
+}{\plain \f1 065.C*\tab -  LDLt Factorization\tab \tab \tab \tab Algorithm 6.5\par
+}{\plain \f1 065B.C*\tab -  LDLt Factorization which solves AX=B\tab \tab Algorithm 6.5B\par
+}{\plain \f1 066.C*\tab -  Choleski\tab \tab \tab \tab \tab Algorithm 6.6\par
+}{\plain \f1 066B.C*\tab -  Choleski which solves AX=B\tab \tab \tab Algorithm 6.6B\par
+}{\plain \f1 067.C*\tab -  Crout Reduction for Tridiagonal Linear Systems\tab Algorithm 6.7\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 7\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Iterative Techniques\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 in Matrix Algebra\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f4774000000001070a4b53a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f4774000000001070a4d53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f4774000000001070a4e53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000009070a2a53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab853a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e81e2c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f477400000001b070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f47740000000e5060a1553
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 7\tab Iterative Techniques in Matrix Algebra}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 070B.C*\tab -  Vector and Matrix Norms\tab \tab \tab \tab Algorithm 7.0B\par
+}{\plain \f1 071.C*\tab -  Jacobi Iterative\tab \tab \tab \tab Algorithm 7.1\par
+}{\plain \f1 072.C*\tab -  Gauss-Seidel Iterative\tab \tab \tab \tab Algorithm 7.2\par
+}{\plain \f1 073.C*\tab -  Successive Over Relaxation (SOR)\tab \tab \tab Algorithm 7.3\par
+}{\plain \f1 074.C*\tab -  Iterative Refinement (with rounding)\tab \tab \tab Algorithm 7.4\par
+}{\plain \f1 074B.C*\tab -  Iterative Refinement (single-precision)\tab \tab Algorithm 7.4B\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 8\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Approximation\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Theory\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f47740000000f8060a7d53a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f47740000000f8060a7f53a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f47740000000f8060a8053a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000010070a1e53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060ab953a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e81e2c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f477400000001d070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f4774000000011070a2f53
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 8\tab Approximation Theory}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 080B.C*\tab -  Least-Squares Polynomial Approximation\tab \tab Algorithm 8.0B\par
+}{\plain \f1 081.C*\tab +  Fast Fourier Transformation\tab \tab \tab Algorithm 8.1\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 9\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Approximating\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Eigenvalues\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f477400000009d060aa553a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f477400000009d060aa753a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f477400000009d060aa853a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f477400000000a070a4253a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d01210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060aba53a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f477400000001f070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f47740000000ce060a8053
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 9\tab Approximating Eigenvalues}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 091.C*\tab -  Power Method\tab \tab \tab \tab Algorithm 9.1\par
+}{\plain \f1 091B.C*\tab -  Power Method with Aitken's Delta^2 Method\tab \tab Algorithm 9.1B\par
+}{\plain \f1 092.C*\tab -  Symmetric Power Method\tab \tab \tab Algorithm 9.2\par
+}{\plain \f1 093.C*\tab -  Inverse Power Method\tab \tab \tab \tab Algorithm 9.3\par
+}{\plain \f1 094.C*\tab -  Wielandt's Deflation\tab \tab \tab \tab Algorithm 9.4\par
+}{\plain \f1 094B.C*\tab -  Wielandt's Deflation using Power Method for\tab \tab Algorithm 9.4B\par
+}{\plain \f1 \tab    lambda1\par
+}{\plain \f1 095.C*\tab -  Householder Method\tab \tab \tab \tab Algorithm 9.5\par
+}{\plain \f1 095B.C*\tab -  Householder Method (3rd edition)\tab \tab \tab Algorithm 9.5B\par
+}{\plain \f1 095C.C*\tab -  Householder Method for Non-Symmetric Matrices\tab Algorithm 9.5C\par
+}{\plain \f1 \tab    (Upper Hessenberg)\par
+}{\plain \f1 095D.C*\tab -  Householder Method (with rounding)\tab \tab Algorithm 9.5D\par
+}{\plain \f1 096.C*\tab -  QR Algorithm\tab \tab \tab \tab \tab Algorithm 9.6\par
+}{\plain \f1 096B.C*\tab -  QL Algorithm (3rd edition)\tab \tab \tab Algorithm 9.6B\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 10\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Numerical Solutions\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 of Nonlinear Systems\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 of Equations\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f47740000000fa060a5253a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f47740000000fa060a5453a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f47740000000fa060a5553a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000013070a1f53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060abb53a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000021070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f4774000000085060a3753
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 10\tab Numerical Solutions of Nonlinear Systems of Equations}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 101.C\tab -  Newton's Method for Systems\tab \tab \tab Algorithm 10.1\par
+}{\plain \f1 101A.C\tab -  Steffensen's Method for Systems\tab \tab \tab Algorithm 10.1A\par
+}{\plain \f1 102.C\tab -  Broyden's Method for Systems\tab \tab \tab Algorithm 10.2\par
+}{\plain \f1 103.C\tab -  Steepest Descent Method (with F(x) and J(x))\tab \tab Algorithm 10.3\par
+}{\plain \f1 103B.C\tab -  Steepest Descent Method (with G(x) and gradG(x))\tab Algorithm 10.3B\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 11\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Boundary-Value\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Problems for Ordinary\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Differential Equations\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f477400000000f070a2253a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f477400000000f070a2453a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f477400000000f070a2553a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000015070a1e53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060abc53a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8b52c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000023070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f4774000000012070a3553
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 11\tab Boundary-Value Problems for Ordinary Differential Equations}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 111.C\tab -  Linear Shooting\tab \tab \tab \tab Algorithm 11.1\par
+}{\plain \f1 112.C\tab -  Nonlinear Shooting with Newton's Method\tab \tab Algorithm 11.2\par
+}{\plain \f1 112B.C\tab -  Nonlinear Shooting with Secant Method\tab \tab Algorithm 11.2B\par
+}{\plain \f1 113.C\tab -  Linear Finite Difference\tab \tab \tab \tab Algorithm 11.3\par
+}{\plain \f1 113B.C\tab -  Linear Finite Difference (Richardson's Extrapolation)\tab Algorithm 11.3B\par
+}{\plain \f1 114.C\tab -  Nonlinear Finite Difference\tab \tab \tab Algorithm 11.4\par
+}{\plain \f1 114B.C\tab -  Nonlinear Finite Difference (Richardson's Extrap.)\tab Algorithm 11.4B\par
+}{\plain \f1 115.C\tab -  Piecewise Linear Rayleigh-Ritz\tab \tab \tab Algorithm 11.5\par
+}{\plain \f1 116.C\tab -  Cubic Spline Rayleigh-Ritz\tab \tab \tab Algorithm 11.6\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 CHAPTER 12\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Numerical Solutions\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 to Partial-Differential\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Equations\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f4774000000009070a3153a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f4774000000009070a3353a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f4774000000009070a3453a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000017070a1e53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060abd53a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000025070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f4774000000014070a3553
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 CHAPTER 12\tab Numerical Solutions to Partial-Differential Equations}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 121.C\tab -  Poisson Equation Finite-Difference (Elliptic)\tab \tab Algorithm 12.1\par
+}{\plain \f1 122.C*\tab -  Heat Equation Backward-Difference (Parabolic)\tab Algorithm 12.2\par
+}{\plain \f1 122B.C*\tab -  Heat Equation Forward-Difference (Parabolic)\tab \tab Algorithm 12.2B\par
+}{\plain \f1 122C.C*\tab -  Heat Equation Richardson's Method (Parabolic)\tab Algorithm 12.2C\par
+}{\plain \f1 123.C*\tab -  Crank-Nicolson (Parabolic)\tab \tab \tab Algorithm 12.3\par
+}{\plain \f1 124.C\tab -  Wave Equation Finite-Difference (Hyperbolic)\tab \tab Algorithm 12.4\par
+}{\plain \f1 125.C\tab -  Finite-Element\tab \tab \tab \tab \tab Algorithm 12.5\par
+}{\plain \f1 126A.C\tab -  Parabolic Equations With Newton Iteration in 1-D\tab Algorithm 12.6A\par
+}{\plain \f1 127A.C\tab -  Parabolic Equations With Newton Iteration in 2-D\tab Algorithm 12.7A\par
+}{\plain \f1 128A.C\tab -  Elliptic Equations With Newton Iteration in 2-D\tab \tab Algorithm 12.8A\par
+}{\plain \f1 129A.C\tab -  Biharmonic Equation Using Gauss-Jordan Method\tab Algorithm 12.9A\par
+}{\plain \f1 \par
+}\sect \sectd \endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\field{\*\fldinst ADVANCE \\y 162}{\fldrslt }}{\plain \b\f1\fs40 APPENDIX A\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs40 \par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 "Numerical Analysis\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Algorithms in C"\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 Supporting\par
+}\pard \qc\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 C 
+Source 
+Code\par
+}\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+{{\pict\wmetafile8\picw14688\pich10800\picwGoal5875\pichGoal4320
+0100090000035b0600000c005901000000000400000003010100050000000b0200000000050000000c02200187010500000004010d0000000500000006010100000007000000fc020000ffffff000000040000002d01000008000000fa0205000100000000000000040000002d010100070000001b04220189010000000008
+000000fa0200000000000000000000040000002d010200040000002d010000040000002d0102001e00000025030d000201a6000401a800c300e9006a009100c3003800c5003800c50039001b018e001b0190000901a2000701a0000201a5000201a600040000002d010200040000002d0102002600000025031100b9008700
+bd008400c3008300c8008400cc008700cf008b00d0009100cf009600cc009a00c8009d00c3009e00bd009d00b9009a00b6009600b5009100b6008b00b9008700040000002d010200040000002d0102002800000025031200b4008200b7007f00c3007c00cf007f00d5008500d8009100d6009900d4009c00d100a000ce00a3
+00ca00a500c300a600bb00a500b700a300b1009d00ae009100b1008500b4008200040000002d010200040000002d0102002800000025031200b7008500bc008200c3008100c9008200ce008500d1008a00d3009100d1009700ce009c00c900a000c300a100bc00a000b9009e00b7009c00b4009700b3009100b4008b00b700
+8500040000002d010200040000002d0102001600000025030900ce00a600d000a500d200a600d300a800d200aa00d000ab00ce00aa00cd00a800ce00a600040000002d010200040000002d0102000e00000025030500c4003e0015018f000101a300b0005200c4003e00040000002d010200040000002d0102002600000025
+0311009800b400aa00a200ac00a100ad00a200ae00a200b000a300b100a400b100a500b200a600b200a9009e00bd009900bd009900bc009600b9009600b6009700b5009800b400040000002d0102001c000000fb02b5ff00000000000090010000000007000022417269616c00f4774000000010070a2553a8f4775ca8f477
+0100000000003000040000002d010300040000002d010300050000000902000000021c000000fb021000070000000000bc02000000000102022253797374656d000000000a000000040000000000ffffffff0100000000003000040000002d01040004000000f00103001c000000fb02b5ff00000a000a0090010000000007
+000022417269616c00f4774000000010070a2753a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0103001c00
+0000fb02b5ff00000a000a0090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050005000000060102000000040000002d01010007000000fc020000000000000000040000002d0106003200000024031700f8001b0021011a0023012e001f012e001f
+0129001e0126001d0124001b01210017011f0014011e0004011e001301330001014a0016014a001c0148001e0146002001420020013c0024013c0023015000f80051000c013600f8001b00040000002d010200040000002d010000040000002d01040004000000f001050004000000f00103001c000000fb02b3ff00000000
+000090010000000007000022417269616c00f4774000000010070a2853a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002040000002d010400040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d000000050000
+0002010100000005000000090200000002040000002d010400040000002d0103001c000000fb02b3ff00000000000090010000000204000000575020477265656b2043656e7475727900a8f4775ca8f4770100000000003000040000002d01050009000000320afc00fc00010000002a002800050000001402fc0024010400
+00002d0104001c000000fb02cbff00000000000090010000000007000022417269616c00f4774000000019070a1e53a8f4775ca8f4770100000000003000040000002d010700040000002d01070005000000090200000002040000002d010400040000002d01070005000000090200000002050000002e0118000000040000
+00080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0107001c000000fb02cbff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f4770100000000003000040000002d01080009000000320a760057000100
+00006d00210005000000140276007800040000002d0104001c000000fb02ccff00000000000090010000000007000022417269616c00f47740000000fb060abe53a8f4775ca8f4770100000000003000040000002d010900040000002d01090005000000090200000002040000002d010400040000002d0109000500000009
+0200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d0109001c000000fb02ccff000000000000900100000002040000005750204d617468457874656e6465644100a8f4775ca8f47701000000000030000400
+00002d010a0009000000320ad000530001000000e8002c00050000001402d0007f00040000002d010400040000002d010900040000002d01090005000000090200000002040000002d010400040000002d01090005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002
+010100000005000000090200000002040000002d010400040000002d01090009000000320afb0059000100000041002300050000001402fb007c00040000002d0104001c000000fb02ecff00000000000090010000000007000022417269616c00f4774000000027070a0153a8f4775ca8f477010000000000300004000000
+2d010b00040000002d010b0005000000090200000002040000002d01040004000000f0010b0004000000f0010a0004000000f001090004000000f001080004000000f001070004000000f001050004000000f00103001c000000fb02ecff00004e0c4e0c90010000000007000022417269616c00f4774000000013070a2d53
+a8f4775ca8f4770100000000003000040000002d010300040000002d01030005000000090200000002050000002e011800000004000000080100000500000004010d0000000500000002010100000005000000090200000002040000002d010400040000002d010300040000002d010100040000002d010600590100003805
+0d002300020009000700120008000d0005000b0014000a000d000d00cc005800cd005a00cb005b00c9005b00c5005900c4005800c3005600c3005400c4005200c5005100c6004f00c8004e00c9004d00cb004c00cf004e00d0004e00d1005000d1005500cf005400d0005300d0005100ce004f00cc004e00cb004e00c9004f
+00c8005000c7005000c6005200c5005300c5005500c6005700c6005800c8005900cb005900cc005800cc005800cc005800cb005e00d9005800da005900d4006700d2006600d4006200d0005d00cc005f00cb005e00d2005d00d5006000d7005c00d8005b00d8005900d6005b00d2005d00d5006800df005e00e3006300e600
+6600e5006700e5006800e3006a00e1006a00df006900df006d00de007100dc006f00dd006c00dd006700dc006700db006500d6006900d5006800dc006400e0006800e3006800e3006700e4006600e2006400df006000dc006400df007200e9006800f0006f00ef007000e9006a00e6006e00ec007300ea007400e5006f00e1
+007200e8007800e6007a00df007200ea007800ec007600ef007a00ee007b00ea007800ed008000f7007600fe007d00fd007e00f7007900f4007c00f9008100f8008200f3007d00ee008200ed008000f500890000017f00060185000601880004018a0001018a00ff00890000018a0000018c00ff008d00fe009200fd009000
+fd008c00fe008b00fe008800fd008800fd008700fb008500f7008a00f5008900fc0084000001880001018800020189000301890003018800040187000401850000018100fc008400000193000a01890011019000100192000a018c0007018f000d0194000c019600060190000301930009019a0008019b000001930009019c
+00130192001b019a0019019b00130195001001980016019e0015019f000f0199000c019d001201a3001101a40009019c00040000002d010200040000002d010000040000002d010400030000000000}}\pard \qj\sl0\pvpg\posy7200\phmrg\posxc\absh4320 
+\par
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \b\f1\fs64 \par
+}\pard\page 
+\sect \sectd \sbknone\vertalc\endnhere 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \qj\sl0\tx-1440\tx-720\tx0\tx1584\tx2304\tx3456\tx4608\tx5760\tx6912\tx7632\tx8064\tx9072 
+{\plain \f1 }{\plain \b\f1 APPENDIX A\tab "Numerical Analysis Algorithms in C" Supporting C Source Code}{\plain \f1 \par
+}{\plain \f1 \par
+}{\plain \f1 041EE.C*\tab - Composite Simpson's Rule Using the Equation Evaluator Routines\par
+}{\plain \f1 041FUN.C\tab - Composite Simpson's Rule as a Function\par
+}{\plain \f1 CONVERT.C*\tab - Converts Files from 8-bit Extended ASCII to 7-bit Standard ASCII\par
+}{\plain \f1 EE.C*\tab - Command-Line Calculator using the Equation Evaluator Routines\par
+}}

@@ -1,0 +1,853 @@
+{\rtf1\ansi \deflang1033\deff0{\fonttbl
+{\f0\fnil \fcharset0 \fprq2 Courier 10cpi;}{\f1\fnil \fcharset0 \fprq2 WP MathB;}}{\colortbl
+\red0\green0\blue0;}
+{\stylesheet{\fs20 \snext0 Normal;}
+{\*\ds1 ASCII Text;}
+{\*\cs2 \additive T;}
+{\*\cs3 \additive A;}
+}\margl1080\margr1080\margt1080\margb1080\ftnbj\ftnrestart\aftnnar \sectd \sbknone\pgnx11520\pgny720\endnhere\facingp 
+{\*\pnseclvl1\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl2\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl3\pnlcrm\pnstart1{\pntxta .}}
+{\*\pnseclvl4\pndec\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl5\pnlcltr\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcrm\pnstart1{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pndec\pnstart1{\pntxta .}}
+{\*\pnseclvl8\pnlcltr\pnstart1{\pntxta .}}
+{\*\pnseclvl9\pnlcrm\pnstart1}
+
+\pard \sl0\tx0\tx1152\tx2304\tx3456\tx4608\tx5760\tx6912\tx8064\tx9216 
+{\plain {\tc {**************************** REVHIST.DOC *****************************\par
+}{\plain \tab History of "Numerical Analysis Algorithms in C"}}\par
+}{\plain **********************************************************************\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain This chapter provides an overview of the history of "Numerical Analysis 
+Algorithms in C."  It is directed to users of previous versions of this 
+software.  It also hints to future versions of Numerical Analysis 
+Algorithms software in other languages.  It may provide incentives for 
+users to upgrade or to just see how this product has matured over the 
+years.\par
+}{\plain \par
+}{\plain The first four sections contains the additions, corrections and 
+enhancements made to previous versions of "Numerical Analysis Algorithms 
+in C".  Below are listed the history of changes made to create versions 
+3.0, 4.0, 4.1, and 4.2.\par
+}{\plain \par
+}{\plain **********************************************************************\par
+}{\plain                               Version 3.0\par
+}{\plain **********************************************************************\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain DATE:    4th QUARTER 1988\par
+}{\plain \par
+}{\plain Initial version for the 3rd edition of the text "Numerical Analysis."\par
+}{\plain \par
+}{\plain \par
+}{\plain **********************************************************************\par
+}{\plain                               Version 4.0\par
+}{\plain **********************************************************************\par
+}{\plain \par
+}{\plain DATE:    1st QUARTER 1989\par
+}{\plain \par
+}{\plain Updated version for the 4th edition of the text "Numerical Analysis."\par
+}{\plain \par
+}{\plain 1.  Added the following algorithms:\par
+}{\plain \par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     a.\tab "trunc.h" \_\tab truncates a floating point value.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     b.\tab "024b.c"  \_\tab Method of False Position (or Regula Falsi)\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     c.\tab "060D.c"  \_\tab Matrix Multiplier (nxn) x (nxn).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     d.\tab "065.c"   \_\tab LDLt Factorization. (99% complete \_ text is in error.)\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     e.\tab "096.c"   \_\tab QR Algorithm.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \par
+}{\plain 2.  Added the following documents:\par
+}{\plain \par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain   a.  UPDATE.DOC \_\tab Explains why there is a version 4.0.  Also has a table 
+relating the third edition names to the fourth edition 
+names.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain 3.  Changed the following algorithms:\par
+}{\plain \par
+}{\plain   ALL ALGORITHMS:\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab Renamed the algorithms to comply with the 4th edition of the text.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab Removed the "alg" prefix from the program names, ie\_ from 
+"alg021.c" to "021.c".\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab Added "naa_util.h" to ALL programs as well as get_title() to 
+prompt the user for an optional title.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab ALL algorithms now prompt for the tolerance (TOL).  (Effects old 
+chapters 2, 5, 8 and 9 programs).\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab ALL algorithms now print the algorithm name to both the output 
+file and to the screen.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab Changed the "/* Needs updating  \par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     7.\tab Removed unneeded "#include <math.h>" statements.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     8.\tab Removed unneeded void declarations.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 1:\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab Improved "signif.h" (It didn't work for numbers > pow(10.0,  
+SIG)).\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab Renamed "nrutil.h" to "naa_util.h", changing all malloc()'s to  
+calloc()'s as well as adding a title prompting routine, 
+get_title().\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab Added "#include <stdlib.h>" to "naa_util.h", replacing  "#include 
+<malloc.h>" from several programs (like ch 9 of  v3.0, now ch 10 
+of v4.0).  "stdlib.h" is for ANSI compatibility.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 2:\par
+}{\plain \par
+}{\plain   CHAPTER 3:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg034.c \_\tab (now 034.c) Now it integrates over the intervals of 
+S(x) after determining the Cubic Spline (like the 
+FORTRAN version used at BYU).  Error fix: line #37  \_ 
+Computes n, not n\_1 coefficient sets.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg035.c \_\tab (now 035.c) Now it integrates over the intervals of 
+S(x) after determining the Cubic Spline (like the 
+FORTRAN version used at BYU).  Error fix: line #37  \_ 
+Computes n, not n\_1 coefficient sets.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 4:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg042.c \_\tab (now 042.c) Removed unused variable h in main().\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 5:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg055.c \_\tab (now 055.c) Removed unused variables k1, k2, k3, and k4 
+in main().\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg056.c \_\tab (now 056.c) Removed unused procedure RK4().\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab alg057b.c \_\tab (now 057b.c) Removed unused variables k1, k2, k3, k4, 
+and ch in main().\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 6:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg063.c \_\tab (now 063.c) Error fix: line #92  \_ Initialized p=1.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg066.c \_\tab (now 066.c) Removed unused variables p and ch in 
+main().\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab alg067.c \_\tab (now 067.c) Removed unused variable k in main().\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 7:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg071.c \_\tab (now 081.c) Removed unused variable n in main().   
+Commented\_out line #144 for K1 (never used).   Casted 
+ldexp()'s 2nd argument to type int.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 8:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg087.c \_\tab (now 093.c) Removed unused variable *B in main().\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg0810.c \_\tab (now 096b.c) Removed unused variable k in main().\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 9:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg091B.c \_\tab (now 101B.c) Could not fix in this version: 
+Steffensen's for n x n.  Debug it?\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg092.c \_\tab (now 102.c) Removed unused procedure infinite_norm().\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab alg093b.c \_\tab (now 103b.c) Removed unused variable j in main().\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 10:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg102.c \_\tab (now 112.c) Removed unused variable j in main().\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg102b.c \_\tab (now 112b.c) Removed unused variable j in main().\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab alg104.c \_\tab (now 114.c) Error fix: line #175 \_ From "w1[i]" to 
+"w[i]".\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab alg105.c \_\tab (now 115.c) Removed unused variable XI in simpson().  
+Changed from "return(0)" to "return(0.0)" in the 
+procedures returning type double.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab alg106.c \_\tab (now 116.c) Removed unused variable XI in simpson().  
+Changed from "return(0)" to "return(0.0)" in the 
+procedures returning type double.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 11:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab alg114.c \_\tab (now 124.c) Removed unused variable t in main().\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab alg115.c \_\tab (now 125.c) Could not fix in this version: Finite 
+Element.  Only about 50% done.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 12:\par
+}{\plain \par
+}{\plain \par
+}{\plain 4.  Changed the following documents:\par
+}{\plain \par
+}{\plain   a.  README.DOC:\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       1.\tab Added helpful hints with portability to other computer systems.\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       2.\tab Include more complete copyright information.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain **********************************************************************\par
+}{\plain                               Version 4.1\par
+}{\plain **********************************************************************\par
+}{\plain \par
+}{\plain DATE:    3rd QUARTER 1989\par
+}{\plain \par
+}{\plain 1.  Added the following algorithms:\par
+}{\plain \par
+}{\plain   CHAPTER 1:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "011B.c"  \_\tab Taylor Polynomial Approximation (degree 5).\par
+}\pard \fi-3168\li3168\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "naa_uti2.h" \_\tab Like "naa_util.h" with the type "long double".  
+Also has routines for 3\_dimensional matrices.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 2:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "024C.c"  \_\tab Modified Newton\_Raphson Method.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 3:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "031B.c"  \_\tab Neville's Iterated Interpolation (for SIG\_digit 
+rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "031C.c"  \_\tab Aitken's Iterated Interpolation.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 4:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "040B1.c" \_\tab 1st Derivative Approximator (for functions).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "040B2.c" \_\tab 1st Derivative Approximator (for points).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "040B3.c" \_\tab 1st Derivative Approximator (for functions with TOL).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "040C1.c" \_\tab 2nd Derivative Approximator (for functions).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "040C2.c" \_\tab 2nd Derivative Approximator (for points).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab "040D1.c" \_\tab Richardson's Extrapolation.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     7.\tab "040D2.c" \_\tab Richardson's Extrapolation (For SIG\_digits rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     8.\tab "041D.c"  \_\tab Newton\_Cotes Formulas for Integrals (8 total).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     9.\tab "043B.c"  \_\tab Gaussian Quadrature.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    10.\tab "044B.c"  \_\tab Composite Trapezoid Rule for Double Integrals.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    11.\tab "044C.c"  \_\tab Gaussian Quadrature for Double Integrals.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    12.\tab "045B.c"  \_\tab Composite Trapezoid Rule for Triple Integrals.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    13.\tab "045C.c"  \_\tab Gaussian Quadrature for Triple Integrals.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 5:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "051B.c"  \_\tab Midpoint, Modified Euler, and Heun's Methods.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "054B.c"  \_\tab Adams\_Bashforth (all four) and Milne's Methods.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "054C.c"  \_\tab Milne\_Simpson Predictor\_Corrector.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 6:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "061B.c"  \_\tab Gaussian Elimination with Backward Substitution (with 
+rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "061C2.c" \_\tab Gauss\_Jordan Method (with rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "061D2.c" \_\tab Gaussian\_Elimination \_ Gauss\_Jordan Hybrid Method 
+(with rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "062B.c"  \_\tab Gaussian Elimination with Maximal Column Pivoting 
+(with rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "063B.c"  \_\tab Gaussian Elimination with Scaled Column Pivoting  
+(with rounding).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab "064B.c"  \_\tab Direct Factorization which solves AX = B.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     7.\tab "065.c"   \_\tab LDLt Factorization (Never worked earlier.  Text in 
+error.)\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     8.\tab "065B.c"  \_\tab LDLt Factorization which solves AX = B.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     9.\tab "066B.c"  \_\tab Choleski which solves AX = B.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 7:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "070B.c"  \_\tab Vector and Matrix Norms.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 8:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "080B.c" \_\tab Least\_Squares Polynomial Approximation (For f(x) and 
+tabulated data).\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 9:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "091B.c"  \_\tab Power Method with Aitken's .\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "094B.c"  \_\tab Wielandt's Deflation using Power Method for lambda1 
+Algorithm 9.4B.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "095.c"   \_\tab Householders Method (new version).\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "095C.c"  \_\tab Householder Method for Non\_Symmetric Matrices.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "095D.c"  \_\tab Householder Method (with rounding).\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 10:\par
+}{\plain \par
+}{\plain   CHAPTER 11:\par
+}{\plain \par
+}{\plain   CHAPTER 12:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "122B.c"  \_\tab Heat Equation Forward\_Difference.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "122C.c"  \_\tab Heat Equation Richardson's Method.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "126A.c"  \_\tab Parabolic Equations With Newton Iteration in 1\_D.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "127A.c"  \_\tab Parabolic Equations With Newton Iteration in 2\_D.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "128A.c"  \_\tab Elliptic Equations With Newton Iteration in 2\_D.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab "129A.c"  \_\tab Biharmonic Equation Using Gauss\_Jordan Method.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain 2.  Changed the following algorithms:\par
+}{\plain \par
+}{\plain   ALL PROGRAMS:\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab Re\_commented to more closely match the text.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab Updated date and version to Summer 1989, v4.1\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab Removed all declaration of functions now prototyped in 
+"naa_util.h".  (ie \_ double **dmatrix(), *dvector(); and float 
+round(); etc. )\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 1:\par
+}\pard \fi-2880\li2880\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "signif.h" \_\tab Renamed SIGNIF.H to ROUND.H (and round()).  Also 
+removed #include <math.h> and added ANSI C formatted 
+function  prototypes.\par
+}\pard \fi-2880\li2880\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "trunc.h"  \_\tab Renamed TRUNC.H to CHOP.H (and chop()).  Also removed 
+#include <math.h> and added ANSI C formatted function 
+prototypes.\par
+}\pard \fi-3168\li3168\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "naa_util.h" \_\tab removed "void exit();" statement, already found in 
+stdlib.h.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 2:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "026.c"  \_\tab Patched print_poly() for \_X + 2 type polynomial.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "027.c"  \_\tab Changed d's to D's in Step 4 for 4th edition 
+corrections.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "028A.c" \_\tab Patched print_poly() for \_X + 2 type polynomial.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 3:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "032.c"  \_\tab Prints the output like an arrow, not a ramp.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "033.c"  \_\tab Evaluates the Hermite polynomial at H(x).\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "034.c"  \_\tab Also evaluates f(x), f'(x), and f''(x).\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "035.c"  \_\tab Also evaluates f(x), f'(x), and f''(x).\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 4:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "041B.c" \_\tab Changed title from "Extended" to "Composite".\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "041C.c" \_\tab Changed title from "Extended" to "Composite".\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 5:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab ALL      \_\tab Replaced a (%d) with a needed (%lg) when reading alpha.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "051.c"  \_\tab Changed N=0; to N;.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "052.c"  \_\tab Changed N=0; to N;.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "053.c"  \_\tab Replaced 053.C with text's modified algorithm.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "054.c"  \_\tab Optimized.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab "055.c"  \_\tab Replaced 055.C with text's modified algorithm.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     7.\tab "056.c"  \_\tab Replaced 056.C with text's modified algorithm.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     8.\tab "057.c"  \_\tab Replaced matrices with dvector() and dmatrix().\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     9.\tab "057B.c" \_\tab Replaced matrices with dvector().\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    10.\tab "058.c"  \_\tab Changed N=0; to N;.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 6:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "061B.c" \_\tab Renamed 061B.c to 061C.c.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "064B.c" \_\tab Renamed 064B.c to 064C.c.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "065.c"  \_\tab Converted from float to double. \par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "066.c"  \_\tab Converted from float to double. \par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "067.c"  \_\tab Converted from float to double. \par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 7:\par
+}{\plain \par
+}{\plain   CHAPTER 8:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "081.c"  \_\tab Removed cvector() and replaced with #include 
+"naa_uti2.h".\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 9:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "094.c"  \_\tab Never really worked very well.  Had MAJOR problems!\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "095.c"  \_\tab Renamed from "Householders" to "Householder".\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "095B.c" \_\tab Householder Method (old version) was named 095.C.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 10:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "101A.c" \_\tab Fixed it to work with an n x n system, not just 2 x 2.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "101B.c" \_\tab Removed it.  See 101A.C.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "102.c"  \_\tab Changed from euclidean_norm() to infinite_norm(). 
+Optimized.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "103.c"  \_\tab Replaced with text modified version.  Optimized.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "103B.c" \_\tab Replaced with text modified version.  Optimized.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 11:\par
+}{\plain \par
+}{\plain   CHAPTER 12:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "125.c"  \_\tab Removed dcube() and replaced with #include 
+"naa_uti2.h".\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain \par
+}{\plain 3.  Changed the following documents:\par
+}{\plain \par
+}{\plain     a.   ALL\par
+}{\plain \par
+}{\plain \par
+}{\plain \par
+}{\plain **********************************************************************\par
+}{\plain                               Version 4.2\par
+}{\plain **********************************************************************\par
+}{\plain \par
+}{\plain DATE:    2nd QUARTER 1991\par
+}{\plain \par
+}{\plain 1.  Added the following algorithms:\par
+}{\plain \par
+}{\plain   CHAPTER 1:\par
+}{\plain     1.  NAAUTIL3.H\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         a.\tab Contains six complex routines for dynamic allocation and 
+freeing of vectors, matrices, and cubes.\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         b.\tab Placed #include "complex.h" at the top of "naautil3.h" and 
+removed it from "028A.C", "081.C", and "125.C".\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTERS 2-12:\tab NONE\par
+}{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain 2.  Added the following utilities:\par
+}{\plain \par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain   a.  CONVERT.EXE \_\tab Converts the source code files from EXTENDED ASCII to 
+STANDARD ASCII for non\_MS\_DOS platforms (ie \_ UNIX).  
+Like NAA v4.1 \_\_\_> NAA v4.11  (CONVERT.C source code 
+also included)\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}\pard \fi-2448\li2448\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain   b.  EQEVAL.C \_\tab Allows equations like f(x) and f(x,y,z) to be entered at 
+run time instead of at compile time.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}\pard \fi-2160\li2160\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain   c.  EE.EXE \_\tab Uses EQEVAL.C to familiarize users with writing 
+mathematical equations in C.  Allows equations like f(x) 
+and f(x,y,z) to be evaluated like a calculator, using 
+infix notation.  (EE.C source code also included)\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain \par
+}{\plain 3.  Added the following documents:\par
+}{\plain \par
+}{\plain   a.  LANGTRAN.DOC\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       1.\tab Compares "C" with most popular languages in order to help those 
+already familiar with another programming language to easily 
+transition to "C".  These languages include Ada, BASIC, C++, 
+FORTRAN 77, and Pascal.\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       2.\tab Include working sample programs which implement Composite 
+Simpson's Rule for Numerical Integration \_ Algorithm 4.1 in: 
+ADA, BASIC, C, C++, FORTRAN 77, and Pascal.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   b.  REVHIST.DOC\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       1.\tab Combined the files UPDATE40.DOC and UPDATE41.DOC into the file 
+REVHIST.DOC.\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       2.\tab Added update info for version 4.2.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   c.  TEXTERR.DOC\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       1.\tab Lists several textbook errors (third and fourth edition) and how 
+to fix them.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   d.  IN\\*.IN\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       1.\tab A subdirectory containing the input files for ALL the examples.\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       2.\tab Can be used to easily create output files when the input data 
+changes little from run to run.  (Usage:  041 < IN\\041.in)\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   e.  OUT\\*.OUT\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       1.\tab A subdirectory containing the output files for ALL the examples.\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       2.\tab Can be used to verify that your compiler recompiled the source 
+code correctly after entering the data found in the appropriate 
+*.IN file.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain \par
+}{\plain 4.  Changed the following algorithms:\par
+}{\plain \par
+}{\plain   ALL ALGORITHMS:\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab Added the following comments to all programs:\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         
+/********************************************************************/\par
+}{\plain /* Written by:  Harold A. Toomey, CARE\_FREE SOFTWARE, 2Q 1991, v4.2 */\par
+}{\plain /********************************************************************/\par
+}{\plain                                             ...        
+/********************************************************************/\par
+}{\plain /* Copyright (C) 1988\_1991, Harold A. Toomey, All Rights Reserved.  */\par
+}{\plain /********************************************************************/\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab Added free_dvector(), free_dmatrix(), etc. to all of the programs, 
+freeing the dynamically allocated memory.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab Redirection is no longer necessary (better for MacIntosh 
+computers).\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         a.\tab Writes output to the screen and to a default file (see 
+printf2()).\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         b.\tab Added NAA_do_first() to the beginning of main() in each .c 
+file.\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         c.\tab Added NAA_do_last() to the end of main() in each .c file.\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         d.\tab Use printf2() to replace printf() and fprintf(file_id,...) 
+pairs.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab Re-commented all code to better identify the INPUTS, ALGORITHM, 
+and OUTPUTS.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab Moved all files to a single directory (root).\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab Use more detailed and useful error messages in some programs.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     7.\tab Removed all the "#include <stdio.h>"s, "#include <math.h>"s, and 
+#define PI 3.1415... from the .c files, placing them inside of 
+NAAUTIL.H instead.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     8.\tab Placed [char *outfile = "041.out";] for default output file.  Each 
+program has a unique name "XXX.out".\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     9.\tab Replaced the line:\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         "ch = getchar();  /* Filters out CR/LF */"     with\par
+}{\plain         "getchar()        /* Cleans up after scanf(). */".\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    10.\tab Show default responses to all getchar() prompts.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    11.\tab List which homework problems the ___B,C,D.C programs were written 
+for as a note in each file.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    12.\tab List which programs where modified or not included into the 4th 
+edition of the text.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    13.\tab Documented known text errors in the source code as well as in a 
+list.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain    14.\tab Added DBL_DIG constant when reading the number of desired 
+significant digits for rounding (and truncation).  Effected 9 
+programs.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain   CHAPTER 1:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.  "ROUND.H" \_\tab Added #include <float.h> for #define DBL_DIG used in 
+several of the algorithms (Ch 3,4,6,9).  Changed 
+return value from type float to type double.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.  "TRUNC.H" \_\tab Renamed CHOP.H to TRUNC.H and chop() to trunc().   
+Added #include <float.h> for #define DBL_DIG used in 
+several of the algorithms (Ch 3,4,6,9).  Changed 
+return value from type float to type double.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.  NAAUTIL.H\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         a.\tab Renamed NAA_UTIL.H to NAAUTIL.H since a file transfer from 
+ProComm to a VAX removed it.  Should make this file a little 
+more portable.\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         b.\tab Added NAA_do_first() and NAA_do_last() to replace get_title() 
+and to open and close an output file.\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         c.\tab Added two global variables previously used with v4.1's 
+get_title().\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         d.\tab Removed nrerror() and substituted naaerror() in its place.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab Files effected:\par
+}{\plain               1.  028A.C        3.  NAAUTIL.H          5.  NAAUTIL3.H\par
+}{\plain               2.  060C.C        4.  NAAUTIL2.H         6.  GAUSSJ.H\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         e.\tab Added eight new #defines:\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain           1.  TRUE         \_ Boolean for true.  Equals 1 in C. \par
+}{\plain           2.  FALSE        \_ Boolean for false.  Equals 0 in C. \par
+}{\plain           3.  ANSI         \_ For compatibility with non\_ANSI C\par
+}{\plain                              compilers.\par
+}{\plain           4.  FILE_SAVE    \_ To save output to a file or not.\par
+}{\plain           5.  MSDOS_OS     \_ Indicates using MS\_DOS operating system.\par
+}{\plain           6.  UNIX_OS      \_ Indicates using the UNIX operating\par
+}{\plain                              system.\par
+}{\plain           7.  MACINTOSH_OS \_ Indicates using a Macintosh operating\par
+}{\plain                              system.\par
+}{\plain           8.  TITLE_PROMPT \_ Can turn off the title prompt.\par
+}{\plain           9.  EQ_EVAL      - Invokes the Equation Evaluator.\par
+}{\plain           10. NAAUTIL_OBJ  \_ For using pre\_compiled object code.\par
+}\pard \fi-1296\li1296\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain       f.\tab Added #define PI 3.1415... to 40 decimal places.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain     4.  NAAUTIL2.H\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         a.\tab Renamed NAA_UTI2.H to NAAUTIL2.H for VAX compatibility.\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         b.\tab Moved all complex routines into "NAAUTIL3.H".\par
+}\pard \fi-1584\li1584\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain         c.\tab Added cube() and free_cube() (for floats) and imatrix() and 
+free_imatrix() (for integers) for completeness.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 2:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "028A.C" \_\tab Fixed crash when solving "X^4 + 1 = 0." (Had division 
+by 0.)\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 3:\par
+}{\plain   CHAPTER 4:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "043.C"  \_\tab Replaced ldexp() with "<<" bit shifting for speed.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "043B.C" \_\tab Made it easy to add more Legendre polynomial 
+coefficients.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "044C.C" \_\tab Made it easy to add more Legendre polynomial 
+coefficients.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "045.C"  \_\tab Replaced hypot(x,y) with sqrt(x*x + y*y) for 
+compatibility.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "045B.C" \_\tab Replaced hypot(x,y) with sqrt(x*x + y*y) for 
+compatibility.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     6.\tab "045C.C" \_\tab Replaced hypot(x,y) with sqrt(x*x + y*y) for 
+compatibility.  Made it easy to add more Legendre 
+polynomial coefficients.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 5:\par
+}{\plain \par
+}{\plain   CHAPTER 6:\par
+}\pard \fi-1872\li1872\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab ALL \_\tab Separated the output portion from the input portion of 
+getting a matrix or vector.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 7:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "070B.C" \_\tab Now solves for the Euclidean Norm of a matrix or gives 
+help in solving it by hand.  See the Euclidean_Norm_A() 
+routine.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 8:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "081.C"  \_\tab Replaced ldexp() with "<<" bit shifting for speed.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 9:\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "095.C"  \_\tab Replaced both A1 and A2 with A.  3rd edition algorithm 
+was in error, not allowing this to be done.  Added 
+speed comments.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "095B.C" \_\tab Commented its error saying A may be over\_written.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     3.\tab "095C.C" \_\tab Modified Step #7 to make it work correctly.  Text is in 
+error leaving this step out on p. 54.  Also replaced 
+both A1 and A2 with A.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     4.\tab "095D.C" \_\tab Also replaced both A1 and A2 with A.\par
+}\pard \fi-2592\li2592\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     5.\tab "096.C"  \_\tab Deleted an incomplete "fprintf(stderr," from line 117.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 10:\par
+}{\plain \par
+}{\plain   CHAPTER 11:\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "113B.C"  \_\tab Replaced ldexp() with "<<" bit shifting for speed.\par
+}\pard \fi-2736\li2736\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     2.\tab "114B.C"  \_\tab Replaced ldexp() with "<<" bit shifting for speed.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain   CHAPTER 12:\par
+}\pard \fi-2448\li2448\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     1.\tab "125.C" \_\tab Nearly works except for the integration routines, which 
+need further testing.  Strangely, 
+free_dmatrix(NN,1,3,1,M); causes a null pointer 
+assignment error when using the Microsoft C 5.0 
+compiler.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain \par
+}{\plain 5.  Changed the following documents:\par
+}{\plain \par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     a.\tab Combined README.DOC with MATH.DOC, placing them inside 
+USERSMAN.DOC.  Basically rewrote the book.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
+}{\plain \par
+}\pard \fi-432\li432\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain 6.\tab Additional Enhancements:\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     a.\tab Now Supply executables for MS\_DOS (.EXE) and MacIntosh computers.\par
+}\pard \fi-1008\li1008\sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain     b.\tab Placed less source files and more executables on the DEMO disks.\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+{\plain \par
+}{\plain \par
+}{\plain **********************************************************************\par
+}{\plain Future Plans\par
+}{\plain \par
+}{\plain "Numerical Analysis Algorithms" is currently only available in the C 
+language.  A FORTRAN 77 version is due by the end of this year (4Q 1991).  
+Pascal and C++ versions are also in the works.  Please give us feedback on 
+versions in other languages that you would like to see.\par
+}{\plain \par
+}{\plain Sample algorithms are shown in Appendix C - Sample Programs in Other 
+Languages.  Languages shown are: Ada, BASIC, C, C++, FORTRAN 77, and 
+Pascal.  Each one of these programs implement Simpson's Rule for 
+Integration - Algorithm 4.1.  They essentially perform the same when run.\par
+}{\plain \par
+}{\plain A FORTRAN version is available from the authors of the text "Numerical 
+Analysis" for professors only.  It implements the algorithms as 
+subroutines to be run in a batch environment.\par
+}{\plain \par
+}{\plain "Numerical Analysis Algorithms in FORTRAN" v4.0 (forthcomming from Care-Free Software) implements the algorithms as stand-alone programs which 
+prompt for the required inputs.  There is no need to do further work to 
+get the program to run...just compile them as they are.  The NAA version 
+also includes the modifications requested for in the homework exercises.\par
+}{\plain \par
+}{\plain Programmer's Note:  It is the programmer's intent to keep this product 
+current.  If a fifth edition of the text is published, a version 5.0 of 
+this software is sure to follow.\par
+}{\plain \par
+}{\plain \par
+}{\plain ********************************************************************** *  
+Written by:  Harold A. Toomey, CARE-FREE SOFTWARE, 2Q 1991, v4.2  * *  
+Copyright (C) 1988\_1991, Harold A. Toomey, All Rights Reserved.   * 
+**********************************************************************\par
+}\pard \sl0\tx0\tx144\tx288\tx432\tx576\tx720\tx864\tx1008\tx1152\tx1296\tx1440\tx1584\tx1728\tx1872\tx2016\tx2160\tx2304\tx2448\tx2592 
+}}}
