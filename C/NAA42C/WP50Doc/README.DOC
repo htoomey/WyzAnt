@@ -1,0 +1,274 @@
+********************************* README.DOC **********************************
+		"Numerical Analysis Algorithms in C", Version 4.2          
+*******************************************************************************
+
+This collection of algorithms was written for the text "Numerical Analysis",
+third and fourth edition, by Burden and Faires.  If you have not purchased
+this software, but would like to, write or call us at:
+
+			CARE-FREE SOFTWARE
+			C/O HAROLD A. TOOMEY
+			464 NORTH 750 EAST
+			LINDON, UT  84042
+			1-801-785-0464
+
+The table below lists the file names of all of the algorithms.  Print it out
+and use it as a quick reference.  For detailed information on using these
+programs, see your User's Manual or read the file "usersman.doc."
+
+An order form is also provided at the end of this document.
+
+The file "naautil.c" is the most important file of all since it is used by
+every algorithm.  Read the first half of this file and change the option
+flags to suit your needs.
+
+*******************************************************************************
+
+--------------------------------------------------------------------------
+CHAPTER 1    Mathematical Preliminaries
+--------------------------------------------------------------------------
+COMPLEX.C  - "Numerical Recipes in C" Complex Number Routines.
+EQEVAL.C   - Equation Evaluator Routines
+GAUSSJ.C   - "Numerical Recipes in C" Gauss-Jordan Matrix Solver.
+NAAUTIL.C  - "Numerical Analysis Algorithms in C" Utilities I. (standard)
+NAAUTIL2.C - "Numerical Analysis Algorithms in C" Utilities II. (extended)
+NAAUTIL3.C - "Numerical Analysis Algorithms in C" Utilities III. (complex)
+ROUND.C    - Rounds a floating point value to SIG significant digits.
+TRUNC.C    - Truncates a floating point value to SIG significant digits.
+011B.C*    - Taylor Polynomial Approximation              Algorithm 1.1B
+
+--------------------------------------------------------------------------
+CHAPTER 2    Solutions of Equations in One Variable
+--------------------------------------------------------------------------
+021.C*  -  Bisection (or Binary-Search)                   Algorithm 2.1
+022.C*  -  Fixed-Point                                    Algorithm 2.2
+023.C   -  Newton-Raphson                                 Algorithm 2.3
+024.C*  -  Secant                                         Algorithm 2.4
+024B.C* -  Method of False Position (or Regula Falsi)     Algorithm 2.4B
+024C.C  -  Modified Newton-Raphson Method                 Algorithm 2.4C
+025.C*  -  Steffensen                                     Algorithm 2.5
+026.C*  -  Horner                                         Algorithm 2.6
+027.C*  -  MÅller                                         Algorithm 2.7
+028A.C* +  Complex Polynomial Solver (CPOLY)              Algorithm 2.8A
+
+--------------------------------------------------------------------------
+CHAPTER 3    Interpolation and Polynomial Approximation
+--------------------------------------------------------------------------
+031.C*  -  Neville's Iterated Interpolation               Algorithm 3.1
+031B.C* -  Neville's Iterated Interpolation               Algorithm 3.1B
+             (with rounding)
+031C.C* -  Aitken's Iterated Interpolation                Algorithm 3.1C
+032.C*  -  Newton's Interpolatory Divided-Difference      Algorithm 3.2
+             Formula
+033.C*  -  Hermite Interpolation                          Algorithm 3.3
+034.C*  -  Natural Cubic Spline                           Algorithm 3.4
+035.C*  -  Clamped Cubic Spline                           Algorithm 3.5
+
+--------------------------------------------------------------------------
+CHAPTER 4    Numerical Differentiation and Integration
+--------------------------------------------------------------------------
+040B1.C -  1st Derivative Approximation (for functions)   Algorithm 4.0B1
+040B2.C*-  1st Derivative Approximation                   Algorithm 4.0B2
+             (for tabulated data)
+040B3.C -  1st Derivative Approximation                   Algorithm 4.0B3
+             (for functions w/TOL)
+040C1.C -  2nd Derivative Approximation (for functions)   Algorithm 4.0C1
+040C2.C*-  2nd Derivative Approximation                   Algorithm 4.0C2
+             (for tabulated data)
+040D1.C*-  Richardson's Extrapolation                     Algorithm 4.0D1
+040D2.C*-  Richardson's Extrapolation (with rounding)     Algorithm 4.0D2
+041.C*  -  Composite Simpson's Rule                       Algorithm 4.1
+041B.C* -  Composite Trapezoidal Rule                     Algorithm 4.1B
+041C.C* -  Composite Midpoint Rule                        Algorithm 4.1C
+041D.C* -  Newton-Cotes Formulas for Integrals (8 total)  Algorithm 4.1D
+042.C*  -  Adaptive Quadrature                            Algorithm 4.2
+043.C*  -  Romberg                                        Algorithm 4.3
+043B.C* -  Gaussian Quadrature                            Algorithm 4.3B
+044.C   -  Composite Simpson's Rule for Double Integrals  Algorithm 4.4
+044B.C  -  Composite Trapezoid Rule for Double Integrals  Algorithm 4.4B
+044C.C  -  Gaussian Quadrature for Double Integrals       Algorithm 4.4C
+045.C   -  Composite Simpson's Rule for Triple Integrals  Algorithm 4.5
+045B.C  -  Composite Trapezoid Rule for Triple Integrals  Algorithm 4.5B
+045C.C  -  Gaussian Quadrature for Triple Integrals       Algorithm 4.5C
+
+--------------------------------------------------------------------------
+CHAPTER 5    Initial-Value Problems for Ordinary Differential Equations
+--------------------------------------------------------------------------
+051.C*  -  Euler                                          Algorithm 5.1
+051B.C* -  Midpoint, Modified Euler, and Heun's Methods   Algorithm 5.1B
+052.C*  -  Runge-Kutta (Order Four)                       Algorithm 5.2
+053.C   -  Runge-Kutta-Fehlberg                           Algorithm 5.3
+054.C*  -  Adam's Fourth-Order Predictor-Corrector        Algorithm 5.4
+054B.C* -  Adams-Bashforth (all four) and Milne's Methods Algorithm 5.4B
+054C.C* -  Milne-Simpson Predictor-Corrector              Algorithm 5.4C
+055.C*  -  Adam's Variable Step-Size Predictor-Corrector  Algorithm 5.5
+056.C*  +  Extrapolation                                  Algorithm 5.6
+057.C   -  Runge-Kutta for Systems of Differential        Algorithm 5.7
+             Equations
+057B.C  -  Euler's Variable Step-Size for Systems         Algorithm 5.7B
+058.C   -  Trapezoidal with Newton Iteration              Algorithm 5.8
+
+--------------------------------------------------------------------------
+CHAPTER 6    Direct Methods for Solving Linear Systems
+--------------------------------------------------------------------------
+060B.C* -  Matrix Inverter                                Algorithm 6.0B
+060C.C* -  Determinant of a Matrix                        Algorithm 6.0C
+060D.C* -  Matrix Multiplier                              Algorithm 6.0D
+061.C*  -  Gaussian Elimination with Backward             Algorithm 6.1
+             Substitution
+061B.C* -  Gaussian Elimination with Backward             Algorithm 6.1B  
+             Substitution (with rounding)
+061C1.C* - Gauss-Jordan Method                            Algorithm 6.1C1
+061C2.C* - Gauss-Jordan Method (with rounding)            Algorithm 6.1C2
+061D1.C* - Gaussian-Elimination - Gauss-Jordan Hybrid     Algorithm 6.1D1
+             Method
+061D2.C* - Gaussian-Elimination - Gauss-Jordan Hybrid     Algorithm 6.1D2
+             Method (with rounding)
+062.C*  -  Gaussian Elimination with Maximal Column       Algorithm 6.2
+             Pivoting
+062B.C* -  Gaussian Elimination with Maximal Column       Algorithm 6.2B
+             Pivoting (with rounding)
+063.C*  -  Gaussian Elimination with Scaled Column        Algorithm 6.3
+             Pivoting
+063B.C* -  Gaussian Elimination with Scaled Column        Algorithm 6.3B
+             Pivoting (with rounding)
+064.C*  -  Direct Factorization                           Algorithm 6.4
+064B.C* -  Direct Factorization which solves AX=B         Algorithm 6.4B
+064C.C* -  Direct Factorization with Maximal Column       Algorithm 6.4C
+             Pivoting (3rd edition)
+065.C*  -  LDLt Factorization                             Algorithm 6.5
+065B.C* -  LDLt Factorization which solves AX=B           Algorithm 6.5B
+066.C*  -  Choleski                                       Algorithm 6.6
+066B.C* -  Choleski which solves AX=B                     Algorithm 6.6B
+067.C*  -  Crout Reduction for Tridiagonal Linear Systems Algorithm 6.7
+
+--------------------------------------------------------------------------
+CHAPTER 7    Iterative Techniques in Matrix Algebra
+--------------------------------------------------------------------------
+070B.C* -  Vector and Matrix Norms                        Algorithm 7.0B
+071.C*  -  Jacobi Iterative                               Algorithm 7.1
+072.C*  -  Gauss-Seidel Iterative                         Algorithm 7.2
+073.C*  -  Successive Over Relaxation (SOR)               Algorithm 7.3
+074.C*  -  Iterative Refinement (with rounding)           Algorithm 7.4
+074B.C* -  Iterative Refinement (single-precision)        Algorithm 7.4B
+
+--------------------------------------------------------------------------
+CHAPTER 8    Approximation Theory
+--------------------------------------------------------------------------
+080B.C* -  Least-Squares Polynomial Approximation         Algorithm 8.0B
+081.C*  +  Fast Fourier Transformation                    Algorithm 8.1
+
+--------------------------------------------------------------------------
+CHAPTER 9    Approximating Eigenvalues
+--------------------------------------------------------------------------
+091.C*  -  Power Method                                   Algorithm 9.1
+091B.C* -  Power Method with Aitken's Delta^2 Method      Algorithm 9.1B
+092.C*  -  Symmetric Power Method                         Algorithm 9.2
+093.C*  -  Inverse Power Method                           Algorithm 9.3
+094.C*  -  Wielandt's Deflation                           Algorithm 9.4
+094B.C* -  Wielandt's Deflation using Power Method for    Algorithm 9.4B
+             lambda1
+095.C*  -  Householder Method                             Algorithm 9.5
+095B.C* -  Householder Method (3rd edition)               Algorithm 9.5B
+095C.C* -  Householder Method for Non-Symmetric Matrices  Algorithm 9.5C
+             (Upper Hessenberg)
+095D.C* -  Householder Method (with rounding)             Algorithm 9.5D
+096.C*  -  QR Algorithm                                   Algorithm 9.6
+096B.C* -  QL Algorithm (3rd edition)                     Algorithm 9.6B
+
+--------------------------------------------------------------------------
+CHAPTER 10   Numerical Solutions of Nonlinear Systems of Equations
+--------------------------------------------------------------------------
+101.C   -  Newton's Method for Systems                    Algorithm 10.1
+101A.C  -  Steffensen's Method for Systems                Algorithm 10.1A
+102.C   -  Broyden's Method for Systems                   Algorithm 10.2
+103.C   -  Steepest Descent Method (with F(x) and J(x))   Algorithm 10.3
+103B.C  -  Steepest Descent Method (with G(x) and         Algorithm 10.3B
+             gradG(x))
+
+--------------------------------------------------------------------------
+CHAPTER 11   Boundary-Value Problems for Ordinary Differential Equations
+--------------------------------------------------------------------------
+111.C   -  Linear Shooting                                Algorithm 11.1
+112.C   -  Nonlinear Shooting with Newton's Method        Algorithm 11.2
+112B.C  -  Nonlinear Shooting with Secant Method          Algorithm 11.2B
+113.C   -  Linear Finite Difference                       Algorithm 11.3
+113B.C  -  Linear Finite Difference                       Algorithm 11.3B
+             (Richardson's Extrapolation)
+114.C   -  Nonlinear Finite Difference                    Algorithm 11.4
+114B.C  -  Nonlinear Finite Difference                    Algorithm 11.4B
+             (Richardson's Extrapolation)
+115.C   -  Piecewise Linear Rayleigh-Ritz                 Algorithm 11.5
+116.C   -  Cubic Spline Rayleigh-Ritz                     Algorithm 11.6
+
+--------------------------------------------------------------------------
+CHAPTER 12   Numerical Solutions to Partial-Differential Equations
+--------------------------------------------------------------------------
+121.C   -  Poisson Equation Finite-Difference (Elliptic)  Algorithm 12.1
+122.C*  -  Heat Equation Backward-Difference (Parabolic)  Algorithm 12.2
+122B.C* -  Heat Equation Forward-Difference (Parabolic)   Algorithm 12.2B
+122C.C* -  Heat Equation Richardson's Method (Parabolic)  Algorithm 12.2C
+123.C*  -  Crank-Nicolson (Parabolic)                     Algorithm 12.3
+124.C   -  Wave Equation Finite-Difference (Hyperbolic)   Algorithm 12.4
+125.C   -  Finite-Element                                 Algorithm 12.5
+126A.C  -  Parabolic Equations With Newton Iteration      Algorithm 12.6A
+             in 1-D
+127A.C  -  Parabolic Equations With Newton Iteration      Algorithm 12.7A
+             in 2-D
+128A.C  -  Elliptic Equations With Newton Iteration       Algorithm 12.8A
+             in 2-D
+129A.C  -  Biharmonic Equation Using Gauss-Jordan Method  Algorithm 12.9A
+
+******************************************************************************
+*      Written by:  Harold A. Toomey, CARE-FREE SOFTWARE, 3Q 1991, v4.2      *
+*      Copyright (C) 1988-1991, Harold A. Toomey, All Rights Reserved.       *
+******************************************************************************                             ORDER FORM
+
+                 "NUMERICAL ANALYSIS ALGORITHMS IN C"
+
+A complete set of 116 stand-alone C programs have been written for the
+text "Numerical Analysis", Burden & Faires, 3rd and 4th edition.  These
+programs include ALL of the algorithms as well as all modifications
+required for most of the homework exercises.  The C source code is
+thoroughly commented and easily modified.  The same source code runs
+on MS-DOS, UNIX, VMS, the Macintosh, and more!
+
+               For a FREE demo disk call 1-801-785-0464.
+
+                TO ORDER CALL OR MAIL THIS FORM TO:
+			 CARE-FREE SOFTWARE
+			 C/O HAROLD A. TOOMEY
+			 464 NORTH 750 EAST
+			 LINDON, UT  84042
+
+Please Indicate Method of Payment:
+Check _____  Purchase Order _____ C.O.D. _____
+Name _________________________________________________________________
+Address ______________________________________________________________
+        ______________________________________________________________
+Phone ________________________________________________________________
+
+Please Send Me:
+Individual Licenses:
+_____  Version 4.2 on MS-DOS Disks. . . . . . . . $30.00
+_____  Version 4.2 on Macintosh Disks . . . . . . $35.00
+_____  Demo Disk: MAC _____  DOS _____  . . . . .  FREE 
+_____  User's Manual (170 pages). . . . . . . . . $20.00
+_____  Examples Book (670 pages). . . . . . . . . $65.00
+
+Site Licenses:
+_____  University/Corporation Packet. . . . . . .$800.00
+        (Includes: Set of MS-DOS and Macintosh disks, a User's Manual,
+        Examples Book, and a site license good for unlimited campus/
+        corporate use.)
+
+Diskette Size:  _____ 5¨" (360K)   _____ 3´" (720K)  _____ 3´" (800K)
+                _____ 5¨" (1.2M)   _____ 3´" (1.44M)       (Macintosh)
+
+_______________  MERCHANDISE TOTAL  (prices include S&H)
+_______________  C.O.D. Orders add $5.00
+_______________  UTAH RESIDENTS add 6¨% Sales Tax
+_______________  TOTAL
+
+             UNLIMITED CUSTOMER SUPPORT!  1-801-785-0464.             (7/7/93)
+
