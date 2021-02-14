@@ -1,0 +1,19 @@
+<html>
+<body>
+Beaches<br>
+<img SRC="surf.jpg" height=121 width=66 ALT="Coastline image">
+<img SRC="surfer.jpg" height=122 width=66 ALT="surfer image">
+<img SRC="boardwalk.jpg" BORDER=0 height=122 width=95 ALT="boardwalk image">
+<p>Santa Cruz is located on the coast of
+Northern California near Watsonville
+<br>Santa Cruz is home of the Boardwalk and
+the Giant Dipper roller coaster which is over 50 years old.  Ride at
+your own risk!
+<p>These are some other fun activities
+<ul>
+<li> <a href="bbq.html"> Have a BBQ </a></li>
+<li><a href="camp.html">Go camping</a></li>
+<li><a href="start.html">Back to Start</a></li>
+</ul>
+</body>
+</html>

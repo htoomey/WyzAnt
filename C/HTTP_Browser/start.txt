@@ -1,0 +1,15 @@
+<html>
+<body>
+Program 4!<br>Program 4!<br>Program 4!<br>
+Cs 441 <br>
+<img SRC="logo.gif" height=115 width=200 ALT="CSUEB campus">
+<br>
+Fun Acivities for Summer
+<ul>
+<li><a href="camp.html">Camping</a></li>
+<li><a href="beach.html">Beach</a></li>
+<li><a href="bbq.html">Barbeque</a></li>
+</ul>
+Pick a link or enter a url:
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<body>
+Sometimes its nice to get away...
+<br><br>
+Yosemite is a beautiful National Park that is not too far away from
+the Bay area.
+<p>
+<p>
+Other fun Summer activities include:
+<ul>
+<li><a href="bbq.html">BBQ</a></li>
+<li><a href="beach.html">Beach</a></li>
+<li><a href="start.html">Back to Start</a></li>
+</ul>
+</body>
+</html>
