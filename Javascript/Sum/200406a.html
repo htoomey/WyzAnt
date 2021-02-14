@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content=" width=device-width, initial-scale=1.0">
+<title>TITLE HERE</title>
+<script>
+/* Defining Table
+ * Input:  click button
+ * Processing: get first and last value, add them, return sum, code to output sum
+ * Output:  returns the sum of the first and last values in an array
+*/
+
+
+// give list
+var list = [17, 8, 9, 5, 20];
+function addEnds(list) {
+    let sum = list[0] + list[list.length - 1];
+    return sum;
+}  
+function outputMe() {
+	// document.getElementById('outputDiv').innerHTML;
+	var value = addEnds(list);
+	document.write("The sum of " + list[0] + " and " + list[list.length - 1] + " is " + value + ".");
+}
+</script>
+</head>
+
+
+<body>
+list = [17, 8, 9, 5, 20]. Click the button to see the sum of the
+beginning and end value in the list.
+<button type="button" onclick="outputMe()">Click</button>
+
+</body>
+</html>

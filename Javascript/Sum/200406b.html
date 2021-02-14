@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content=" width=device-width, initial-scale=1.0">
+<title>TITLE HERE</title>
+<script>
+/* Defining Table
+ * Input:  click
+ * Processing: do the left and right thing and keep moving them closer until they are equal.
+  If they cannot be equal, then keep moving them until left if still left of right, and then add them and sivide by 2
+ * Output:  return value of middle element
+*/
+
+var list = [12, 4, 8, 17, 5, 20, 11 ];
+// var list = [12, 4, 8, 15, 17, 5, 20, 11 ];
+var value = getMiddle(list);
+var output = "";
+
+function getMiddle(list) {
+       let left = 0;
+       let right = list.length - 1;
+
+       // if list length is even
+       if (right % 2 == 0) {
+           let mid = list[right / 2];
+           //code to debug without debugger
+           //document.write("mid = " + mid + "<br> Sum = " + (left + right) + "<br><br>");
+           output = "The middle value is " + mid + ".";
+         }
+       
+       // if list length is odd
+       else {
+       	   // move left right and right left to find the 2 middle values
+           for (; left < right; left++, right--) {
+                //code to debug without debugger
+                //document.write("left = " + left + "<br> right = " + right + "<br> Sum = " + (left + right) + "<br><br>");
+            }
+            let mid = ((list[left] + list[right]) / 2);
+            output = "The average of the two middles is " + mid + ".";
+       }
+       return output;
+}
+ 
+function outputMe() {
+    //document.getElementById('outputDiv').innerHTML = output;
+    output = getMiddle(list);
+	document.write(output);
+}
+</script>
+</head>
+
+<body>                             
+<button type="button" onclick="outputMe()">Click Me</button>
+<div id = "outputDiv"></div>
+</body>       
+</html>
