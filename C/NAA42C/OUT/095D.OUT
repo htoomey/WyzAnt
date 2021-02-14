@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Householder Method (with rounding) - Algorithm 9.5D
+
+Computed with 3-digit rounding arithmetic.
+System has 4 equations and 4 unknowns.
+
+A = [   4    1   -2    2  ]
+    [   1    2    0    1  ]
+    [  -2    0    3   -2  ]
+    [   2    1   -2   -1  ]
+    
+The tridiagonal Matrix A is:
+
+A = [  4.00e+000 -3.00e+000  0.00e+000  0.00e+000 ]
+    [ -3.00e+000  3.34e+000 -1.66e+000  0.00e+000 ]
+    [  0.00e+000 -1.66e+000 -1.31e+000  9.05e-001 ]
+    [  0.00e+000  0.00e+000  9.05e-001  1.98e+000 ]
+    

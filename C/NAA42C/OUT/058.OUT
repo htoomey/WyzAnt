@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Trapazoidal with Newton Iteration - Algorithm 5.8
+
+y'  = f(t,y)  = -5*y
+y'' = fy(t,y) = df()/dy = -5
+
+Maximum number of iterations at any one step: 15
+Tolerance: 0.0001
+Solving for points on interval [0,1].
+y(0) = à = 2.71828
+Number of intervals N = 10
+Interval number h = 0.1
+
+ t	  w ÷ y
+------------------------
+ 0.00	 2.71828182845
+ 0.10	 1.63096909707
+ 0.20	 0.97858145824
+ 0.30	 0.58714887495
+ 0.40	 0.35228932497
+ 0.50	 0.21137359498
+ 0.60	 0.12682415699
+ 0.70	 0.07609449419
+ 0.80	 0.04565669652
+ 0.90	 0.02739401791
+ 1.00	 0.01643641075

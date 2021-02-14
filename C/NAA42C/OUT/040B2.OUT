@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+1st Derivative Approximation (for tabulated data) - Algorithm 4.0B2
+
+Using Equation 4.2  (Two-Point Formula) with h = 0.1:
+Using points:
+	f(2) = 14.778112
+	f(2.1) = 17.148957
+f'(2) = 23.708450
+
+Using Equation 4.12 (Three-Point Formula) with h = 0.1:
+Using points:
+	f(2) = 14.778112
+	f(2.1) = 17.148957
+	f(2.2) = 19.855030
+f'(2) = 22.032310
+
+Using Equation 4.12 (Three-Point Formula) with h = -0.1:
+Using points:
+	f(2) = 14.778112
+	f(1.9) = 12.703199
+	f(1.8) = 10.889365
+f'(2) = 22.054525
+
+Using Equation 4.13 (Three-Point Formula) with h = 0.1:
+Using points:
+	f(1.9) = 12.703199
+	f(2.1) = 17.148957
+f'(2) = 22.228790
+
+Using Equation 4.13 (Three-Point Formula) with h = 0.2:
+Using points:
+	f(1.8) = 10.889365
+	f(2.2) = 19.855030
+f'(2) = 22.414163
+
+Using Equation 4.14 (Five-Point Formula) with h = 0.1:
+Using points:
+	f(1.8) = 10.889365
+	f(1.9) = 12.703199
+	f(2.1) = 17.148957
+	f(2.2) = 19.855030
+f'(2) = 22.166999
+
+Using Equation 4.15 (Five-Point Formula) with h = 0.1:
+Using points:
+	f(2) = 14.778112
+	f(2.1) = 17.148957
+	f(2.2) = 19.855030
+	f(2.3) = 22.940620
+	f(2.4) = 26.455623
+f'(2) = 22.165922
+

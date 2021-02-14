@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+1st Derivative Approximation (for functions) - Algorithm 4.0B1
+
+f(x)  = x*e^(x)
+f'(x) = (x+1)*e^(x)
+
+Using Equation 4.2  (Two-Point Formula) with h = 0.1:
+
+  f'(2) = 23.708446
+  True value = 22.167168
+  Error = 1.54e+000
+
+Using Equation 4.12 (Three-Point Formula) with h = 0.1:
+
+  f'(2) = 22.032305
+  True value = 22.167168
+  Error = 1.35e-001
+
+Using Equation 4.12 (Three-Point Formula) with h = -0.1:
+
+  f'(2) = 22.054521
+  True value = 22.167168
+  Error = 1.13e-001
+
+Using Equation 4.13 (Three-Point Formula) with h = 0.1:
+
+  f'(2) = 22.228787
+  True value = 22.167168
+  Error = 6.16e-002
+
+Using Equation 4.13 (Three-Point Formula) with h = 0.2:
+
+  f'(2) = 22.414161
+  True value = 22.167168
+  Error = 2.47e-001
+
+Using Equation 4.14 (Five-Point Formula) with h = 0.1:
+
+  f'(2) = 22.166996
+  True value = 22.167168
+  Error = 1.73e-004
+
+Using Equation 4.15 (Five-Point Formula) with h = 0.1:
+
+  f'(2) = 22.165915
+  True value = 22.167168
+  Error = 1.25e-003
+

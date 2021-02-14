@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Composite Simpson's Rule for Double Integrals - Algorithm 4.4
+
+f(x,y) = exp(y/x)
+c(x)   = x*x*x
+d(x)   = x*x
+
+For 1.4 ó x ó 2 and 1 ó y ó 1.5
+
+n = 2 intervals on [a,b].
+m = 1 intervals on [c(x),d(x)].
+
+    ô2     ô1.5 
+I = ³      ³     f(x,y) dy dx = 0.63499009898
+    õ1.4   õ1   
+
+Required 15 functional evaluations.

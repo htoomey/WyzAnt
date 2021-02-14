@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Composite Midpoint Rule - Algorithm 4.1C
+
+f(x) = sin(x) from 0 to 3.14159.
+
+n = 2m = 20 intervals on [a,b].
+Interval number h = 0.1428
+
+    ô3.14159
+I = ³  f(x) dx = 2.0068134424
+    õ0
+
+Required 11 functional evaluations.

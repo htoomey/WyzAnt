@@ -1,0 +1,79 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Quadrature - Algorithm 4.3B
+
+f(x) = exp(-x*x) from 1 to 1.5.
+
+Number of points to evaluate, n = 2
+
+    ô1.5
+I = ³  f(x) dx = 0.109400261
+    õ1
+
+Required 2 functional evaluations.
+
+******************************************************************************
+
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Quadrature - Algorithm 4.3B
+
+f(x) = exp(-x*x) from 1 to 1.5.
+
+Number of points to evaluate, n = 3
+
+    ô1.5
+I = ³  f(x) dx = 0.109364196
+    õ1
+
+Required 3 functional evaluations.
+
+******************************************************************************
+
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Quadrature - Algorithm 4.3B
+
+f(x) = exp(-x*x) from 1 to 1.5.
+
+Number of points to evaluate, n = 4
+
+    ô1.5
+I = ³  f(x) dx = 0.109364261
+    õ1
+
+Required 4 functional evaluations.
+
+******************************************************************************
+
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Quadrature - Algorithm 4.3B
+
+f(x) = exp(-x*x) from 1 to 1.5.
+
+Number of points to evaluate, n = 5
+
+    ô1.5
+I = ³  f(x) dx = 0.109364261
+    õ1
+
+Required 5 functional evaluations.
+
+******************************************************************************

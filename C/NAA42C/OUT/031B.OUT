@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Neville's Iterated Interpolation (with rounding) - Algorithm 3.1B
+
+Computed with 4-digit rounding arithmetic.
+Interpolating polynomial is of degree 4.
+Evaluating P(x) at x = 1.5
+
+ i	  x(i)   Q(i,0)  Q(i,1)  Q(i,2)  Q(i,3)  Q(i,4)
+-------------------------------------------------------
+ 0	  1.00	 0.7652	
+ 1	  1.30	 0.6201	 0.5234	
+ 2	  1.60	 0.4554	 0.5103	 0.5125	
+ 3	  1.90	 0.2818	 0.5133	 0.5113	 0.5118	
+ 4	  2.20	 0.1104	 0.5103	 0.5138	 0.5119	 0.5118	
+
+P(1.5) = 0.5118

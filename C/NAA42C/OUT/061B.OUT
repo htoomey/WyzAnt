@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Elimination with Backward Substitution - Algorithm 6.1B
+
+Solves A*X = B.
+
+Computed with 2-digit rounding arithmetic.
+
+A = [  0.04  0.01 -0.01 ]
+    [  0.2  0.5 -0.2 ]
+    [   1   2   4 ]
+    
+B = [  0.06  0.3  11 ]
+
+At row 1:
+E = [  0.04  0.01 -0.01  |  0.06 ]
+    [  0.2  0.5 -0.2  |  0.3 ]
+    [   1   2   4  |  11 ]
+    
+No rows need swapping.
+
+At row 2:
+E = [  0.04  0.01 -0.01  |  0.06 ]
+    [  3e-009  0.45 -0.15  |  1.2e-008 ]
+    [   0  1.7  4.2  |  9.5 ]
+    
+No rows need swapping.
+
+At row 3:
+E = [  0.04  0.01 -0.01  |  0.06 ]
+    [  3e-009  0.45 -0.15  |  1.2e-008 ]
+    [ -1.1e-008  4.8e-008  4.8  |  9.5 ]
+    
+X = [  1.8  0.67  2 ]

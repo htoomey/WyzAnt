@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Composite Simpson's Rule - Algorithm 4.1
+
+f(x) = sin(x) from 0 to 3.14159.
+
+n = 20 intervals on [a,b].
+Interval number h = 0.15708
+
+     ô3.14159
+XI = ³  f(x) dx = 2.0000067844
+     õ0
+
+Required 21 functional evaluations.

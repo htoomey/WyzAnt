@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Newton's Interpolatory Divided-Difference Formula - Algorithm 3.2
+
+Coefficients are for an interpolatory polynomial of degree 4.
+
+ i	  x(i) 	  Q(i,0)	  Q(i,1)	  Q(i,2)	  Q(i,3)	  Q(i,4)
+----------------------------------------------------------------------------------------------
+ 0	  1.00	  0.765197700
+				 -0.483705667
+ 1	  1.30	  0.620086000			 -0.108733889
+				 -0.548946000			  0.065878395
+ 2	  1.60	  0.455402200			 -0.049443333			  0.001825103
+				 -0.578612000			  0.068068519
+ 3	  1.90	  0.281818600			  0.011818333
+				 -0.571521000
+ 4	  2.20	  0.110362300
+	
+For Forward Divided Difference, use top row values.
+For Centered Difference Formula (Sterling's), use middle row values.
+For Backward Divided Difference, use bottom row values.

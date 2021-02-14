@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Elimination with Scaled Column Pivoting - Algorithm 6.3B
+
+Solves A*X = B.
+
+Computed with 2-digit rounding arithmetic.
+
+A = [  0.04  0.01 -0.01 ]
+    [  0.2  0.5 -0.2 ]
+    [   1   2   4 ]
+    
+B = [  0.06  0.3  11 ]
+
+At row 1:
+E = [  0.04  0.01 -0.01  |  0.06 ]
+    [  0.2  0.5 -0.2  |  0.3 ]
+    [   1   2   4  |  11 ]
+    
+Need to swap row 1 with row 2.
+
+At row 2:
+E = [  0.2  0.5 -0.2  |  0.3 ]
+    [ -8.9e-010 -0.09  0.03  | -1.3e-009 ]
+    [   0 -0.5   5  |  9.5 ]
+    
+Need to swap row 2 with row 3.
+
+At row 3:
+E = [  0.2  0.5 -0.2  |  0.3 ]
+    [   0 -0.5   5  |  9.5 ]
+    [ -8.9e-010 -3.6e-009 -0.87  | -1.7 ]
+    
+
+X = [  1  1  2 ]

@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Weilandt's Deflation - Algorithm 9.4
+
+System has 3 equations and 3 unknowns.
+
+A = [   4   -1    1  ]
+    [  -1    3   -2  ]
+    [   1   -2    3  ]
+    
+Approximate first Eigenvalue, lambda = 6
+
+Approximate first Eigenvector, V:
+V = [   1  -1   1 ]t
+
+Second approximate Eigenvector R(n-1), X:
+X = [   1  -1 ]t
+
+Approximate second Eigenvalue, mu = 3
+
+Approximate second Eigenvector, U:
+U = [  -2  -1   1 ]t

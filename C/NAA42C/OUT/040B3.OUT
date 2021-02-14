@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+1st Derivative Approximation (for functions within TOL) - Algorithm 4.0B3
+
+f(x) = x*e^(x)
+f'(x) = (x+1)*e^(x)
+
+Accurate to within a tolerance of 1e-007
+
+f'(2) = 22.167168
+True value = 22.167168
+Error = 7.79e-010
+
+f'(1) = 5.436564
+True value = 5.436564
+Error = 2.06e-010
+
+f'(0) = 1.000000
+True value = 1.000000
+Error = 5.00e-011
+

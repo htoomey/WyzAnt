@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+QL Algorithm - Algorithm 9.6B
+
+Maximum number of iterations: 30
+System has 3 equations and 3 unknowns.
+
+The coefficients for Diagonal Vector A:
+A = [   4   3   2 ]t
+
+The coefficients for Off-diagonal Vector B:
+B = [   2   1 ]t
+
+MATRIX = [  4.000000000   2.000000000   0.000000000  ]
+         [  2.000000000   3.000000000   1.000000000  ]
+         [  0.000000000   1.000000000   2.000000000  ]
+         
+Eigenvalues are:
+	 5.66907908828
+	 2.47602360292
+	 0.85489730880

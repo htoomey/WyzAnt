@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Iterative Refinement - Algorithm 7.4
+
+Computed with 5-digit rounding arithmetic.
+
+Maximum number of iterations: 25
+System has 3 equations and 3 unknowns.
+
+A = [  3.333  15920 -10.333 ]
+    [  2.222  16.71  9.612 ]
+    [  1.5611  5.1791  1.6852 ]
+    
+B = [  15913  28.544  8.4254 ]t
+
+X(0) = [  1.2927  0.99988  0.90085 ]t
+Residual = [-8.9938E-002  3.0466E-001 -2.8923E-001 ]t
+
+X(1) = [  0.99998       1       1 ]t
+Residual = [ 6.6989E-005  4.5692E-005  3.1026E-005 ]t
+
+X(2) = [       1       1       1 ]t
+Residual = [ 2.3842E-007  1.1921E-006 -2.3842E-007 ]t
+
+X(3) = [       1       1       1 ]t

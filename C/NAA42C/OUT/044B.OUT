@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Composite Trapezoid Rule for Double Integrals - Algorithm 4.4B
+
+f(x,y) = exp(y/x)
+c(x)   = x*x*x
+d(x)   = x*x
+
+For 0.1 ó x ó 0.5 and c(x) ó y ó d(x)
+
+n = 5 intervals on [a,b].
+m = 5 intervals on [c(x),d(x)].
+
+    ô0.5   ôd(x)
+I = ³      ³     f(x) dy dx = 0.033504603247
+    õ0.1   õc(x)
+
+Required 48 functional evaluations.

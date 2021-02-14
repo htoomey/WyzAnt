@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Crout Reduction for Tridiagonal Linear Systems - Algorithm 6.7
+
+Solves A*X = B.
+
+A = [         2        -1         0         0 ]
+    [        -1         2        -1         0 ]
+    [         0        -1         2        -1 ]
+    [         0         0        -1         2 ]
+    
+B = [         1         0         0         1 ]
+
+X = [         1         1         1         1 ]

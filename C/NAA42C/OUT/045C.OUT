@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Gaussian Quadrature for Triple Integrals - Algorithm 4.5C
+
+                                Ùb Ùd(x) Ù·(x,y)
+To approximate the integral I = ≥  ≥     ≥       f(x,y,z) dx dy dz
+                                ıa ıc(x) ı‡(x,y)
+
+f(x,y,z)    = sqrt(x*x + y*y)
+c(x)        = -sqrt(4.0 - x*x)
+d(x)        = sqrt(4.0 - x*x)
+alphaf(x,y) = sqrt(x*x + y*y)
+betaf(x,y)  = 2.0
+
+For -2 Û x Û 2 and c(x) Û y Û d(x) and ‡(x,y) Û z Û ·(x,y)
+
+n = 4 intervals on [a,b].
+m = 4 intervals on [c(x),d(x)].
+p = 4 intervals on [alpha(x,y),beta(x,y)].
+
+    Ù2     Ùd(x)  Ùbeta(x,y)
+I = ≥      ≥      ≥         f(x,y,z) dx dy dz = 8.8039860995
+    ı-2    ıc(x)  ıalpha(x,y)
+
+Required 64 functional evaluations.

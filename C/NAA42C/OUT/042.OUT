@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Adaptive Quadrature - Algorithm 4.2
+
+f(x) = (100.0/(x*x))*sin(10.0/x) from 1 to 3.
+
+Limit N to number of levels = 8
+Tolerance = 0.0001
+
+      ô3
+APP = ³  f(x) dx = -1.42601481
+      õ1
+
+Required 93 functional evaluations.

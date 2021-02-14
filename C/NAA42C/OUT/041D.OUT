@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+		   "Numerical Analysis Algorithms in C" v4.2
+-------------------------------------------------------------------------------
+
+NAA v4.2 Sample Output
+
+Newton-Cotes Formulas for Integrals - Algorithm 4.1D
+
+f(x) = sin(x) from 0 to 0.785398.
+
+Using Eq. (4.40)  Trapezoidal Rule
+
+    ô0.785398
+I = ³  f(x) dx = 0.2776801837
+    õ0
+
+Using Eq. (4.41)  Simpson's Rule
+
+    ô0.785398
+I = ³  f(x) dx = 0.29293263791
+    õ0
+
+Using Eq. (4.42)  Simpson's Three-Eights Rule
+
+    ô0.785398
+I = ³  f(x) dx = 0.29291070262
+    õ0
+
+Using Eq. (4.43)  
+
+    ô0.785398
+I = ³  f(x) dx = 0.29289318263
+    õ0
+
+Using Eq. (4.46)  Midpoint Rule
+
+    ô0.785398
+I = ³  f(x) dx = 0.30055886502
+    õ0
+
+Using Eq. (4.47)  
+
+    ô0.785398
+I = ³  f(x) dx = 0.29798754226
+    õ0
+
+Using Eq. (4.48)  
+
+    ô0.785398
+I = ³  f(x) dx = 0.29285865927
+    õ0
+
+Using Eq. (4.49)  
+
+    ô0.785398
+I = ³  f(x) dx = 0.29286922821
+    õ0
+
