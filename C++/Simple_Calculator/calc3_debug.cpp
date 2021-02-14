@@ -37,10 +37,6 @@ int main() {
 	cout << "==============================" << endl;
 #endif
 	while (cin >> num_op_string) {	
-
-#if DEBUG
-	cout << "num_op_string:  " << num_op_string << endl;
-#endif	
 	
 		// Set num to zero if we added/subtracted it already in the switch statement below
 		if (!op) num = 0;	
@@ -83,7 +79,7 @@ cout << "   op: " << op << endl;
 				case '+' : sum += num; break; 
 				case '-' : sum -= num; break; 
 				case ';' : semicolon_found = true;
-						   cout << sum << endl << endl;
+						   cout << sum << endl;
 						   sum = 0;
 						   break; 
 				default : break; 
@@ -97,10 +93,9 @@ cout << "   sum:  " << sum << endl;
 		// Is this the last number or operand of the equation with no space before it?
 		// This cout is for the final and last one 
 		if ((!semicolon_found) && (num_op_string[num_op_string.length()-1] == ';')) {
-			cout << sum << endl << endl;
+			cout << sum << endl;
 			sum = 0;
 			semicolon_found = false;
-			op = '\0';  // NEW
 		}
 
 	}	// while()

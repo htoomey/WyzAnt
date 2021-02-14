@@ -81,7 +81,6 @@ int main() {
 			cout << sum << endl;
 			sum = 0;
 			semicolon_found = false;
-			op = '\0';
 		}
 	}
 	return 0; 
