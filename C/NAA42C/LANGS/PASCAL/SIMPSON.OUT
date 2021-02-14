@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+                 "Numerical Analysis Algorithms in Pascal" v4.0
+-------------------------------------------------------------------------------
+
+NAA 4.0 Sample Output
+
+Composite Simpson`s Rule - Algorithm 4.1
+
+f(x) = sin(x) from 0.00000000 to 3.14159200.
+
+n = 20 subintervals of [a,b].
+Interval number h = 0.15707960
+
+    ô3.14159200
+I = ³  f(x) dx = 2.00000678
+    õ0.00000000
+
+Required 21 functional evaluations.

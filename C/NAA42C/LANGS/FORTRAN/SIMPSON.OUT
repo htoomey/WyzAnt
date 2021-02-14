@@ -1,0 +1,19 @@
+ ------------------------------------------------------------------------------
+                 "Numerical Analysis Algorithms in FORTRAN" v4.0
+ ------------------------------------------------------------------------------
+ 
+ NAA 4.2 Sample Output                                                          
+  
+ Composite Simpson`s Rule - Algorithm 4.1
+ 
+ f(x) = sin(x) from .0000000D+00 to .3141592D+01.
+ 
+ n =   20 intervals on [a,b].
+ Interval number h =  .1570796D+00
+ 
+     ô .3141592D+01
+ I = ³  f(x) dx =  .2000007D+01
+     õ .0000000D+00
+ 
+ Required   21 functional evaluations.
+ 
