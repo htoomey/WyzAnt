@@ -1,0 +1,43 @@
+#*********************************************************************
+#  Program:  ccc  (UNIX script file)
+#
+#  Purpose:
+#    Ccc is a UNIX script file used for compiling, running, and
+#    viewing a mathematical C program.  It can be easily altered to
+*    allow for linking to "naautil.o" (with or without "eqeval.c"),
+#    speeding up the compile time.
+#
+#  Written By:  Harold A. Toomey
+#  Date:        21 Aug 1991
+#
+#  Example:  % ccc 041   where "041.c" is the file name.
+#                        (Leave off the .c extension)
+#*********************************************************************
+
+echo Compiling $1.c
+
+#  Compile the program and name the executable the same as the
+#  original file except with no extension.  Links to the math library
+#  (located at /usr/sys/libm.a).
+
+cc $1.c -o $1 -lm
+
+#  Replace the above "cc" line with the below "cc" line to link to
+#  the pre-compiled "naautil.c" object code file.
+#
+# cc $1.c -o $1 naautil.o -lm
+#
+#
+#  Create "naautil.o" object code by running the below step once.
+#  Remember to re-compile "naautil.c" every time one of its flags
+#  are changed.
+#
+# cc -c naautil.c 
+#
+
+#  Run the program
+$1
+
+#  View the program's output file
+more $1.out
+#*********************************************************************
