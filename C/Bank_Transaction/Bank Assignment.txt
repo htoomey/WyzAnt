@@ -1,0 +1,27 @@
+here is the assignment
+---------------------------------------------------------
+
+
+Write a c language program.
+Bank Transactions file IO with error handling
+
+Have the customer login by keyboard entry their account number, six digits e.g. 123456.  Prompt for transaction type.
+
+Their two decimal float account balance will be associated with a text file name starting with "A" followed by their account number and having extension .txt  example A123456.txt
+Their cumulative transaction log file will be associated with a text file name starting with "L" followed by their account number and having extension .txt  example L123456.txt
+
+Transaction type codes "F"=Fraud  "N"=New Account  "W"=Withdraw  "D"=Deposit  "I"=Inquiry  "Q"=Quit "C"=Close
+Create the files with the program as New Account if they do not exist.  e.g. "A123456.txt" will be set to 0.0  File "L123456.txt" will log one line starting with time stamp, transaction type code, transaction amount, starting balance, ending balance.   e.g. Sun Nov 29 2020 21:11:13 N 0.0 0.0 0.0
+
+Transactions:
+Deposit will update account balance by adding amount.  Make log entry.
+Withdraw if (amount plus $1.00) is greater than balance, then lock account from change using system("attrib +R A123456.txt");     make log entry of a fraud attempt account locked 'insufficient funds' and then exit with EXIT_FAILURE.
+Withdraw if (amount plus $1.00) is equal to or less than balance, update acount balance by subtracting sum of (amount plus $1.00).  Make log entry.
+Inquiry, unlock the account using system("attrib -R A123456.txt"); .  Use fprintf stderr print a message with account balance.
+
+
+To identify file IO errors when they occur use fprintf stderr to print a message and errno  and then exit with EXIT_FAILURE;
+
+Close the account by changing the filename to CA123456.txt  and  CL123456.txt   use rename("A123456.txt", "CA123456.txt");
+
+Loop until keyboard entry transaction type = 'Q' for quit.
