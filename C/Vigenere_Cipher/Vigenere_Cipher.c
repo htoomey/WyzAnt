@@ -1,6 +1,7 @@
 //  Programm: Vigenere Cipher Encryptio/Decryption
 //  Written By: Harold Toomey
 //  Date: 22 Feb 2021
+//  Updated: 28 Feb 2021
 
 
 #include <stdio.h>		// printf(), fopen(), fclose()
@@ -174,7 +175,7 @@ void ValidateBuffers(char *key, char *plaintext, char *ciphertext) {
 	for (i = 0; i < bufferLen; i++) {
 		plaintext[i] = tolower(plaintext[i]);	// Lowercase the plain text string for convenience
 		if ((plaintext[i] < 'a') || (plaintext[i] > 'z')) {	// Check for alpha characters ONLY
-			printf("ERROR: Non-alpha characters detected in plain text file.\n");
+			printf("ERROR: Non-alpha character '%c' detected in plain text file.\n", plaintext[i]);
 			exit(3);
 		}
 	}
@@ -184,7 +185,7 @@ void ValidateBuffers(char *key, char *plaintext, char *ciphertext) {
 	for (i = 0; i < bufferLen; i++) {
 		ciphertext[i] = tolower(ciphertext[i]);	// Lowercase the cipher text string for convenience
 		if ((ciphertext[i] < 'a') || (ciphertext[i] > 'z')) {	// Check for alpha characters ONLY
-			printf("ERROR: Non-alpha characters detected in cipher text file.\n");
+			printf("ERROR: Non-alpha character '%c' detected in cipher text file.\n", ciphertext[i]);
 			exit(4);
 		}
 	}
